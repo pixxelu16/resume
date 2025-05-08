@@ -1,0 +1,64 @@
+.custom-icon {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateX(50%) translateY(-50%);
+    z-index: 10;
+}
+
+.position-relative {
+    position: relative !important;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 80px 10px;
+    background-color: #111111 !important;
+}
+
+h3.slider-heading {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.grey-text {
+    font-size: 20px;
+    color: #B9B9B9;
+}
+
+.position-relative h4 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .rounded-lg img {
+        width: 100%;
+    }
+
+    .p-4 {
+        padding: 0px !important;
+    }
+
+    .position-relative {
+        padding: 40px 20px;
+    }
+    .custom-icon {
+        position: absolute;
+        bottom: 0% !important;
+        right: 50%;
+        transform: translateX(50%) translateY(-50%);
+        z-index: 10;
+        top: auto;
+    }
+    .position-relative h4 {
+        font-size: 34px;
+        font-weight: 400;
+    }
+    .subtitle:before {
+        top: -10px;
+    }
+}

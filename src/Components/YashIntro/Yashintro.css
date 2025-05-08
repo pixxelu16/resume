@@ -1,0 +1,87 @@
+.yash-intro {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 60px 80px;
+  width: 100%;
+}
+
+.speech-bubble,
+.yash-head {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.speech-bubble {
+  position: absolute;
+}
+
+.speech-bubble-text {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.intro-caption {
+  font-weight: 400;
+  font-size: 53px;
+  margin-top: 40px;
+}
+
+.scroll-down {
+  margin-top: 40px;
+  animation: bounce 2s infinite;
+}
+
+.scroll-down img {
+  width: 24px;
+  height: auto;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.position-relative {
+  position: relative;
+}
+
+.padding-more {
+  padding: 40px 120px;
+}
+
+/*responsive*/
+
+@media (max-width: 768px) {
+  section.yash-intro.py-5.bg-black.text-white.text-center {
+    padding: 40px 20px !important;
+  }
+
+  img.img-fluid.position-absolute.top-0.start-0 {
+    display: none;
+  }
+
+  .padding-more {
+    padding: 0px;
+  }
+
+  .speech-bubble-text {
+    margin: 0px;
+  }
+
+  .intro-caption {
+    font-size: 34px;
+  }
+
+  .yash-intro img.img-fluid {
+    width: 85%;
+  }
+}

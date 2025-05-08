@@ -1,0 +1,68 @@
+ section.Introsection {
+   width: 100%;
+   padding: 140px;
+ }
+
+ .hero-heading {
+   font-size: 52px;
+   font-weight: 400;
+ }
+
+ .hero-buttons button {
+   border: none;
+   border-radius: 6px;
+   font-weight: 600;
+   padding: 10px 16px;
+   cursor: pointer;
+ }
+
+ .download-btn {
+   background: #333;
+   color: white;
+ }
+
+ .see-btn {
+   background: #ff5e00;
+   color: white;
+ }
+
+ .grey-button {
+   background-color: #272424;
+   color: #ffffff;
+ }
+
+ .font-16 {
+   font-size: 16px;
+ }
+
+ @media (max-width: 767px) {
+   .hero-heading {
+     font-size: 1.25rem;
+     text-align: left;
+   }
+
+   .hero-buttons {
+     flex-direction: column;
+   }
+
+   .hero-img {
+     text-align: center;
+     margin-top: 30px;
+   }
+
+   section.Introsection {
+     padding: 40px 20px;
+   }
+
+   .font-24 {
+     font-size: 14px;
+   }
+
+   .hero-buttons button {
+     line-height: 30px;
+   }
+
+   .font-16 {
+     font-size: 14px;
+   }
+ }
