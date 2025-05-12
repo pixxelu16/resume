@@ -36,7 +36,7 @@ const Collage = () => {
         <img src={Collage4} alt="" width="100%" />
       </div>
 
-      <div className="row mt-4" data-aos="fade-up">
+      <div className="row mt-4 gap-20" data-aos="fade-up">
         <div className="col-md-4">
           <div className="Collage5" data-aos="zoom-in" data-aos-delay="100">
             <img src={Collage5} alt="" />

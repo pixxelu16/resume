@@ -1,7 +1,7 @@
 // import React from "react";
-// import { Routes, Route } from "react-router-dom";  // Make sure to import from react-router-dom
-// import ProjectMindSet from '../Pages/ProjectMindSet';  // Your component for this route
-// import HomePage from '../Pages/HomePage/home';  // Your component for the home route
+// import { Routes, Route } from "react-router-dom";  
+// import ProjectMindSet from '../Pages/ProjectMindSet';
+// import HomePage from '../Pages/HomePage/home'; 
 
 // export default function LayoutRoutes() {
 //   return (

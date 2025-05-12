@@ -43,9 +43,16 @@ section.Concept {
     width: 100%;
 }
 
+/* Large screens (1290px to 1524px) */
+@media only screen and (min-width: 1270px) and (max-width: 1524px) {
+    .concept-line:after {
+        left: 6% !important;
+        width: 92%;
+    }
+}
 
-/* Responsive Styles */
-@media only screen and (min-width: 1025px) and (max-width: 1290px){
+/* Medium-large screens (1025px to 1289px) */
+@media only screen and (min-width: 1025px) and (max-width: 1269px) {
     .concept-line:after {
         left: 6% !important;
         width: 90% !important;
@@ -58,46 +65,40 @@ section.Concept {
     }
 }
 
+/* Tablets (768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
     .concept-1 {
         width: 100%;
     }
-
     .concept-line:after {
         left: 10% !important;
         width: 89% !important;
     }
-
     .concept-2 {
         width: 100%;
     }
 }
 
-
-@media (max-width: 768px) {
+/* Mobile (below 768px) */
+@media (max-width: 767px) {
     .padding-top-60 {
         padding-top: 0px;
     }
-
     .col-md-6.concept-2 {
         padding-left: 0px;
         padding-top: 20px;
     }
-
     .concept-2 p {
         font-size: 16px;
     }
-
     section.Concept {
         padding: 40px 35px;
     }
-
     .concept-line:after {
         height: 2px;
         left: 19%;
         width: 75%;
     }
-
     .Collage {
         padding: 40px 20px;
     }
