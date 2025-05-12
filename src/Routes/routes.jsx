@@ -7,8 +7,8 @@ export default function LayoutRoutes() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/project-mindset" element={<ProjectMindSet />} />
+      <Route path="/resume" element={<HomePage />} />
+      <Route path="/resume/project-mindset" element={<ProjectMindSet />} />
     </Routes>
     </BrowserRouter>
   );
