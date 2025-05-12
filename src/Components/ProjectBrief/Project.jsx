@@ -1,14 +1,20 @@
 // src/components/ProjectBrief.js
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Project.css'; 
+import './Project.css';
 
 const ProjectBrief = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <section className="my-5 text-white project-brief">
       <div className="row">
         {/* Left Column */}
-        <div className="col-md-6 mb-4 project-1">
+        <div className="col-md-6 mb-4 project-1" data-aos="fade-up">
           <div className="mb-4">
             <h5>Nature</h5>
             <p>Pitched to Client</p>
@@ -23,7 +29,7 @@ const ProjectBrief = () => {
         </div>
 
         {/* Right Column */}
-        <div className="col-md-6 project-2">
+        <div className="col-md-6 project-2" data-aos="fade-up" data-aos-delay="200">
           <h4 className="">Brief:</h4>
           <p>
             The client approached us to build an identity for a platform centered on collaboration,
@@ -37,7 +43,6 @@ const ProjectBrief = () => {
           </p>
         </div>
       </div>
-
     </section>
   );
 };

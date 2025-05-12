@@ -120,4 +120,12 @@
         margin-top: 20px;
         border-radius: 5px;
     }
+
+    .Collage img {
+        border-radius: 10px;
+    }
+
+.collage-2 {
+    padding-bottom: 20px;
+}
 }
