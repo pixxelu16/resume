@@ -33,9 +33,17 @@
   animation: bounce 2s infinite;
 }
 
+.yash-intro .position-relative {
+  padding: 0px;
+}
+
 .scroll-down img {
   width: 24px;
   height: auto;
+}
+
+.gap-60 {
+  gap: 60px;
 }
 
 @keyframes bounce {
@@ -59,6 +67,47 @@
 }
 
 /*responsive*/
+
+/* Large screens (1290px to 1524px) */
+@media only screen and (min-width: 1524px) and (max-width: 3344px) {
+  .intro-caption {
+    font-size: 46px !important;
+  }
+
+  .display-flex p {
+    width: 100% !important ;
+  }
+
+  .width-custom {
+    width: 45% !important;
+  }
+
+  .position-relative h5.subtitle {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 1270px) and (max-width: 1524px) {
+  .intro-caption {
+    font-size: 46px !important;
+  }
+}
+
+/* Medium-large screens (1025px to 1289px) */
+@media only screen and (min-width: 1025px) and (max-width: 1269px) {
+  .intro-caption {
+    font-size: 46px !important;
+  }
+
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .intro-caption {
+    font-size: 46px !important;
+  }
+
+}
 
 @media (max-width: 768px) {
   section.yash-intro.py-5.bg-black.text-white.text-center {

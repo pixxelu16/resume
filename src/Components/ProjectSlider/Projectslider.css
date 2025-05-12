@@ -10,8 +10,8 @@
     position: relative !important;
     width: 100%;
     overflow: hidden;
-    padding: 100px 80px 10px;
-    background-color: #111111 !important;
+    /* padding: 100px 80px 10px; */
+ 
 }
 
 h3.slider-heading {
