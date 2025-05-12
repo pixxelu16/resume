@@ -132,5 +132,10 @@
 
   .yash-intro img.img-fluid {
     width: 85%;
-  }
+    margin-bottom: 40px;
+}
+
+  .yash-intro .d-flex {
+    display: block !important;
+}
 }

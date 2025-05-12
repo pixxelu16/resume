@@ -95,9 +95,7 @@ section.Concept {
         padding: 40px 35px;
     }
     .concept-line:after {
-        height: 2px;
-        left: 19%;
-        width: 75%;
+      display: none;
     }
     .Collage {
         padding: 40px 20px;

@@ -46,7 +46,7 @@ const ProjectSlider = () => {
     const swiperRef = useRef(null);
 
     return (
-        <div className="position-relative px-8 py-10 bg-black">
+        <div className="position-relative px-8 py-10 bg-black all-slider">
             <h4 className="color-purple">See more work:</h4>
 
             <Swiper
@@ -72,7 +72,7 @@ const ProjectSlider = () => {
             >
                 {projects.map((project, index) => (
                     <SwiperSlide key={index}>
-                        <div className="bg-[#1a1a1a] p-4 rounded-xl text-white h-full">
+                        <div className="bg-[#1a1a1a] p-4 rounded-xl text-white h-full custom-padding">
                             <div className="rounded-lg overflow-hidden mb-4 h-60">
                                 <img
                                     src={project.image}

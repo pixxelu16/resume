@@ -15,7 +15,7 @@ const IntroSection = () => {
             <div className="color-white">
                 <div className="row align-items-center">
                     {/* Text Column */}
-                    <div className="col-md-8" data-aos="fade-right">
+                    <div className="col-md-7" data-aos="fade-right">
                         <p className='font-24'>Hello,</p>
                         <h3 className="hero-heading">
                             Hello, I am Yash 🤓. I am a Visual Designer based in New Delhi, India. Graphic design is my passion 🙏. I do creative branding with punchy visuals 💥 which are sure to capitivate people 👀
@@ -25,7 +25,7 @@ const IntroSection = () => {
                             <button className="orange-button font-16">See About Me</button>
                         </div>
                     </div>
-
+                    <div className="col-md-1"></div>
                     {/* Image Column */}
                     <div className="col-md-4 hero-img text-end" data-aos="fade-left">
                         <img src={BannerFace} alt="Hero Illustration" className="img-fluid" />

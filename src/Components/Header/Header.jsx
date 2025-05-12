@@ -20,7 +20,7 @@ const Header = () => {
       </button>
 
       <nav className={`nav-links ${isMenuOpen ? "show" : ""}`}>
-        <a href="#about">ABOUT</a>
+        <a href="/resume/about-page">ABOUT</a>
         <a href="#work">WORK</a>
         <a href="#gallery">GALLERY</a>
         <a href="#experimental" className="experimental-link">

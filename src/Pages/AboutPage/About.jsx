@@ -5,7 +5,7 @@ import GreyImage from '../../Assets/Images/grey-img.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 
-const HomePage = () => {
+const AboutPage = () => {
     return (
         <>
             <Header />
@@ -27,4 +27,4 @@ const HomePage = () => {
         </>
     );
 };
-export default HomePage;
+export default AboutPage;

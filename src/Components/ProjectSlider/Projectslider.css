@@ -39,13 +39,10 @@ h3.slider-heading {
         width: 100%;
     }
 
-    .p-4 {
+    .custom-padding{
         padding: 0px !important;
     }
-
-    .position-relative {
-        padding: 40px 20px;
-    }
+ 
     .custom-icon {
         position: absolute;
         bottom: 0% !important;
@@ -60,5 +57,8 @@ h3.slider-heading {
     }
     .subtitle:before {
         top: -10px;
+    }
+    .all-slider{
+        padding: 20px;
     }
 }

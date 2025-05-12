@@ -11,6 +11,22 @@ section.ServiceCard {
 }
 
 /* Responsive Styles */
+@media only screen and (min-width: 1524px) and (max-width: 3344px){
+    .rounded p{
+        font-size: 26px !important;
+        font-weight: 400;
+    }
+    .rounded img {
+    width: 17% !important;
+    height: 17%;
+    object-fit: contain;
+    margin-bottom: 20px !important;
+}
+p.last-p {
+    font-size: 18px !important;
+}
+}
+
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .rounded img {
         width: 17% !important;
@@ -18,28 +34,30 @@ section.ServiceCard {
         object-fit: contain;
         margin-bottom: 10px !important;
     }
+
     .rounded p {
         font-size: 20px !important;
     }
+
     p.last-p {
         font-size: 15px !important;
     }
+
     .p-4 {
-        padding: 1rem!important;
+        padding: 1rem !important;
     }
+
     .font-74 {
         font-size: 66px !important;
     }
+
     .font-52 {
         font-size: 38px !important;
     }
 }
 
 
-@media (max-width: 1024px) {
-
-
-}
+@media (max-width: 1024px) {}
 
 @media (max-width: 768px) {
     section.ServiceCard {
@@ -47,17 +65,21 @@ section.ServiceCard {
         padding: 40px 20px;
         background-color: #111111;
     }
+
     section.ServiceCard .font-24 {
         font-size: 18px;
     }
+
     .rounded img {
         width: 20% !important;
         height: 15%;
         margin-bottom: 35px !important;
     }
+
     .ServiceCard p {
         font-size: 24px !important;
     }
+
     p.last-p {
         font-size: 16px !important;
     }
