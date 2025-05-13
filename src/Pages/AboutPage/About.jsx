@@ -4,7 +4,10 @@ import DownloadResume from '../../Components/DownloadResume/DownloadResume'
 import GreyImage from '../../Assets/Images/grey-img.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
-import BrandWorkHighlights from '../../Components/WorkExperience'
+import BrandWorkHighlights from '../../Components/WorkExperience';
+import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
+import ServicesSection from '../../Components/ServiceCard/ServiceCard';
+import BlankSlider from '../../Components/BlankSlider/index.jsx';
 
 const About = () => {
     return (
@@ -25,6 +28,9 @@ const About = () => {
             </div>
             </div>
             <BrandWorkHighlights/>
+            <ServicesSection/>
+            <BlankSlider/>
+            <ProjectSlider/>
             <Footer />
         </>
     );

@@ -96,9 +96,9 @@ const ServicesSection = () => {
                 <hr
                   style={{ borderTop: '1px solid #000', opacity: 0.7 }}
                 />
-               <p style={{ fontSize: '20px', fontFamily: 'Poppins, sans-serif' }} className="last-p">
-  {service.desc}
-</p>
+                <p style={{ fontSize: '20px', fontFamily: 'Poppins, sans-serif' }} className="last-p">
+                  {service.desc}
+                </p>
               </div>
             </div>
           ))}

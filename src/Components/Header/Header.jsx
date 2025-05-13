@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
+        <a href="/resume">
         <img src={logo} alt="Logo" className="logo" />
+        </a>
       </div>
       
       <button className="menu-toggle" onClick={toggleMenu}>
