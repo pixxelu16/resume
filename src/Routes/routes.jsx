@@ -6,11 +6,11 @@ import AboutPage from '../Pages/AboutPage/About';
 
 export default function LayoutRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/resume">
       <Routes>
-        <Route path="/resume" element={<HomePage />} />
-        <Route path="/resume/project-mindset" element={<ProjectMindSet />} />
-        <Route path="/resume/about-page" element={<AboutPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/project-mindset" element={<ProjectMindSet />} />
+        <Route path="/about-page" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   );
