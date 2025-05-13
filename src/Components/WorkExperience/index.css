@@ -1,0 +1,55 @@
+.font-700{
+    font-weight: 700;
+}
+.brand-work {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.weight-300{
+    font-weight: 200;
+}
+.weight-700{
+    font-weight: 700;
+}
+.padding-bottom-90{
+    padding-bottom: 195px;
+}
+.padding-bottom-180 {
+    padding-bottom: 18em;
+}
+.work-custom {
+    padding-left: 150px;
+    border-left: 1px solid grey;
+}
+.work-custom ul::before {
+  content: '';
+  position: absolute;
+  left: -25px; 
+  top: -10px;
+  width: 16px; 
+  height: 16px;
+  border-radius: 50px;
+  color: aliceblue;
+  
+}
+
+.work-custom ul {
+  position: relative;
+  padding-left: 30px; /* Space for the dot */
+}
+
+.work-custom ul::before {
+  content: '';
+  position: absolute;
+  left: -160px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background: #ffffff; /* Make the dot visible */
+  border-radius: 50%;
+}
+.padding-work{
+    padding: 80px 0px;
+}

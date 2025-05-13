@@ -36,12 +36,12 @@
   letter-spacing: 3px;
 }
 
-.experimental-link {
+/* .experimental-link {
   padding: 30px 50px;
   background-image: url('../../Assets/Images/header-back-list.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .header {
   position: sticky;
   top: 0;

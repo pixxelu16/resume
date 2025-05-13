@@ -10,7 +10,7 @@ export default function LayoutRoutes() {
       <Routes>
         <Route path="/resume" element={<HomePage />} />
         <Route path="/resume/project-mindset" element={<ProjectMindSet />} />
-        <Route Path="/resume/about-page" element={<AboutPage />} />
+        <Route path="/resume/about-page" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -46,7 +46,7 @@ const ProjectSlider = () => {
     const swiperRef = useRef(null);
 
     return (
-        <div className="position-relative px-8 py-10 bg-black all-slider">
+        <div className="position-slider px-8 py-10 all-slider">
             <h4 className="color-purple">See more work:</h4>
 
             <Swiper

@@ -1,47 +1,23 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './DownloadResume.css'; 
+import './DownloadResume.css';
+import GreyImage from '../../Assets/Images/grey-img.png'
 
 const ResumeSection = () => {
   return (
-    <div className="position-relative bg-dark text-white py-5 overflow-hidden">
-      
-      {/* Hand Image in Background */}
-      <div
-        className="position-absolute top-0 end-0 bg-hand"
-        style={{
-          width: '250px',
-          height: '250px',
-          backgroundImage: "url('/hand.png')",
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'top right',
-          opacity: 0.8,
-          pointerEvents: 'none',
-          zIndex: 0,
-        }}
-      />
-
-      <div className="container position-relative" style={{ zIndex: 1 }}>
-        <div className="row align-items-center">
-          {/* Left Image */}
-          <div className="col-md-6 d-flex justify-content-center mb-4 mb-md-0"> 
-            <div style={{ width: '240px', height: '320px', backgroundColor: '#ccc' }}></div>
-          </div>
-
-          {/* Right Content */}
-          <div className="col-md-6 text-center text-md-start">
-            <h2 className="fw-semibold mb-3">Hello!</h2>
-            <p className="fs-4 fw-bold mb-4">
-              I am Yash. I am a visual designer based in New Delhi.
-            </p>
-            <button className="btn btn-warning fw-semibold px-4 py-2">
-              Download Resume
-            </button>
-          </div>
-        </div>
-      </div>
+<div className="hand-container">
+  <div className="row">
+    <div className="col-md-6">
+      <img src={GreyImage} alt=""/>
     </div>
+    <div className="col-md-6 color-white d-flex flex-column justify-content-end">
+      <h4 className="font-52 margin-bottom-10rem">Hello!</h4>
+      <h5 className="font-52">I am Yash. I am a visual<br/> designer based in New, Delhi. </h5>
+      <button className="download-button">Download Resume</button>
+    </div>
+  </div>
+  </div>
+ 
   );
 };
 

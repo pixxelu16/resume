@@ -1,141 +1,77 @@
 .yash-intro {
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  padding: 60px 80px;
+  background-image: url('../../Assets/Images/yash-intro.png');
+  background-repeat: no-repeat;
+  background-position: 17% 5%;
   width: 100%;
+  padding: 80px 0px;
 }
 
-.speech-bubble,
-.yash-head {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 
-.speech-bubble {
-  position: absolute;
-}
-
-.speech-bubble-text {
-  margin-top: 40px;
-  margin-right: 20px;
-}
-
-.intro-caption {
-  font-weight: 400;
-  font-size: 53px;
-  margin-top: 40px;
-}
-
-.scroll-down {
-  margin-top: 40px;
-  animation: bounce 2s infinite;
-}
-
-.yash-intro .position-relative {
-  padding: 0px;
-}
-
-.scroll-down img {
-  width: 24px;
-  height: auto;
-}
-
-.gap-60 {
-  gap: 60px;
-}
-
-@keyframes bounce {
-
-  0%,
-  100% {
-    transform: translateY(0);
+  .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 70%;
   }
 
-  50% {
-    transform: translateY(6px);
+  img.banner-face {
+    width: 90%;
+    margin-top: 120px;
+  }
+
+  .yash-intro h1 {
+    font-size: 32px;
   }
 }
 
-.position-relative {
-  position: relative;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1290px){
+ 
+  img.banner-face {
+    width: 27%;
+    
 }
-
-.padding-more {
-  padding: 40px 120px;
-}
-
-/*responsive*/
-
-/* Large screens (1290px to 1524px) */
-@media only screen and (min-width: 1524px) and (max-width: 3344px) {
-  .intro-caption {
-    font-size: 46px !important;
-  }
-
-  .display-flex p {
-    width: 100% !important ;
-  }
-
-  .width-custom {
-    width: 45% !important;
-  }
-
-  .position-relative h5.subtitle {
-    font-size: 20px !important;
+ .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 22%;
   }
 }
+@media only screen and (min-width: 1300px) and (max-width:1530px){
+  img.banner-face {
+    width: 27%;
+    
+}
+ .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 22%;
+  }
+} */
 
-@media only screen and (min-width: 1270px) and (max-width: 1524px) {
-  .intro-caption {
-    font-size: 46px !important;
+@media only screen and (min-width: 1280px) and (max-width:1390px) {
+
+  img.banner-face {
+    width: 27%;
+
+  }
+
+  .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 22%;
   }
 }
 
-/* Medium-large screens (1025px to 1289px) */
-@media only screen and (min-width: 1025px) and (max-width: 1269px) {
-  .intro-caption {
-    font-size: 46px !important;
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+  img.banner-face {
+    width: 27%;
   }
 
-}
-
-/* Tablets (768px to 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .intro-caption {
-    font-size: 46px !important;
+  .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 22%;
   }
-
-}
-
-@media (max-width: 768px) {
-  section.yash-intro.py-5.bg-black.text-white.text-center {
-    padding: 40px 20px !important;
-  }
-
-  img.img-fluid.position-absolute.top-0.start-0 {
-    display: none;
-  }
-
-  .padding-more {
-    padding: 0px;
-  }
-
-  .speech-bubble-text {
-    margin: 0px;
-  }
-
-  .intro-caption {
-    font-size: 34px;
-  }
-
-  .yash-intro img.img-fluid {
-    width: 85%;
-    margin-bottom: 40px;
-}
-
-  .yash-intro .d-flex {
-    display: block !important;
-}
 }

@@ -9,6 +9,7 @@
     font-size: 24px;
     color: white;
     margin-bottom: 50px;
+    font-weight: 300;
 }
 
 
@@ -67,3 +68,7 @@
     left: -20px;
   }
   
+
+  .padding-right-70{
+    padding-right: 100px;
+  }

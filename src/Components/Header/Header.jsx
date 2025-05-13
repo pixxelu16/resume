@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../Assets/Images/logo.png";
+import ResposiveIcon from "../../Assets/Images/responsive_icon.svg"
+import Experimental from "../../Assets/Images/experimental.png"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,15 +18,15 @@ const Header = () => {
       </div>
       
       <button className="menu-toggle" onClick={toggleMenu}>
-        ☰
+    <img src={ResposiveIcon} alt="" />
       </button>
 
       <nav className={`nav-links ${isMenuOpen ? "show" : ""}`}>
-        <a href="#">ABOUT</a>
+        <a href="/resume/about-page">ABOUT</a>
         <a href="/resume/project-mindset">WORK</a>
         <a href="#gallery">GALLERY</a>
         <a href="#experimental" className="experimental-link">
-          EXPERIMENTALOPS
+          <img src={Experimental} alt="" />
         </a>
       </nav>
     </header>

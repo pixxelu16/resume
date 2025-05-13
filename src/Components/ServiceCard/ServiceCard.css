@@ -10,22 +10,14 @@ section.ServiceCard {
     background-color: #111111;
 }
 
+p.last-service {
+    margin-bottom: 55px;
+}
+.font-family-arial {
+    font-family: Arial;
+}
+
 /* Responsive Styles */
-@media only screen and (min-width: 1524px) and (max-width: 3344px){
-    .rounded p{
-        font-size: 26px !important;
-        font-weight: 400;
-    }
-    .rounded img {
-    width: 17% !important;
-    height: 17%;
-    object-fit: contain;
-    margin-bottom: 20px !important;
-}
-p.last-p {
-    font-size: 18px !important;
-}
-}
 
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .rounded img {
@@ -82,5 +74,21 @@ p.last-p {
 
     p.last-p {
         font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .rounded img {
+        width: 25% !important;
+        height: 20%;
+        object-fit: contain;
+        margin-bottom: 60px !important;
+    }
+    .service-title {
+        font-size: 28px !important;
+        line-height: 30px;
+    }
+    .last-p{
+        font-size: 18px !important;
     }
 }

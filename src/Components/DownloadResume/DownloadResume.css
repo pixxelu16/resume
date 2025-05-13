@@ -1,0 +1,24 @@
+.hand-container {
+    width: 100%;
+    padding: 80px 140px;
+    background-image: url('../../Assets/Images/hand-image.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+button.download-button {
+    background: #F15A24;
+    color: #fff;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.margin-bottom-10rem {
+    margin-bottom: 10rem;
+}

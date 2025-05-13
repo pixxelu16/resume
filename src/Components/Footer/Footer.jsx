@@ -1,16 +1,17 @@
 import React from "react";
 import './Footer.css'
+import Experimental from "../../Assets/Images/experimental.png"
 
 const Footer = () => {
     return (
         <footer>
-            <h3 className="font-74 color-white">LET'S BUILD SOMETHING COOL TOGETHER : 0 )</h3>
+            <h3 className="font-74 color-white">LETS BUILD SOMETHING COOL TOGETHER : )</h3>
             <div className="footer-link">
                 <a href="#about">ABOUT</a>
                 <a href="#work">WORK</a>
                 <a href="#gallery">GALLERY</a>
                 <a href="#experimental" className="experimental-link">
-                    EXPERIMENTALOPS
+                    <img src={Experimental} alt="" />
                 </a>
             </div>
             <div className="footet-social">
