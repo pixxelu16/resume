@@ -1,0 +1,54 @@
+.work-gallery {
+    padding: 80px;
+    color: white;
+    width: 100%;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  max-width: 600px;
+}
+
+.filter-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s;
+    text-transform: uppercase;
+}
+.filter-btn.active,
+.filter-btn:hover {
+  background: #fff;
+  color: #1a0d0d;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
+    gap: 40px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+}

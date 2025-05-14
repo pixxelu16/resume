@@ -44,6 +44,20 @@ const BlankSlider = () => {
                 swiper.params.navigation.prevEl = prevRef.current;
                 swiper.params.navigation.nextEl = nextRef.current;
               }}
+               breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                640: {
+                  slidesPerView: 1.5,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
             >
               {[...Array(6)].map((_, index) => (
                 <SwiperSlide key={index}>
@@ -64,9 +78,9 @@ const BlankSlider = () => {
           ref={nextRef}
         />
       </div>
-      <div className='d-flex justify-content-center align-items-center mb-60'>
+      <div className='d-flex justify-content-center align-items-center mb-60 flex-direction'>
         <h4 className='font-52'>See my work in the  </h4>
-        <img src={GalleryImage} alt="" />
+        <img src={GalleryImage} alt="" className='gallery-img' />
       </div>
     </>
   );

@@ -72,3 +72,30 @@
   .padding-right-70{
     padding-right: 100px;
   }
+
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+  .about-resume {
+        padding: 40px 20px;
+    }
+
+    .padding-right-70 {
+    padding-right: 0px;
+}
+.grey-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {
+
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+
+}

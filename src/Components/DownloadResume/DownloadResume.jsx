@@ -8,7 +8,7 @@ const ResumeSection = () => {
 <div className="hand-container">
   <div className="row">
     <div className="col-md-6">
-      <img src={GreyImage} alt=""/>
+      <img src={GreyImage} alt="" className="grey-img"/>
     </div>
     <div className="col-md-6 color-white d-flex flex-column justify-content-end">
       <h4 className="font-52 margin-bottom-10rem">Hello!</h4>

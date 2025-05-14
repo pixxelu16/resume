@@ -1,0 +1,14 @@
+.workpage .heading-project {
+    display: none;
+}
+
+.workpage .project-showcase {
+    padding: 60px 140px 140px;
+}
+.workpage h1 {
+    padding: 60px 140px 0px;
+    text-align: center;
+    font-size: 53px;
+    background-color: #111111;
+    margin-bottom: 0px;
+}

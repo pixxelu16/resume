@@ -6,12 +6,20 @@ import Concept from '../../Components/Concept/Concept';
 import Collage from '../../Components/Collage/Collage';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer'
+import mindshareImage from "../../Assets/Images/mindshare-banner.png";
 
 const ProjectMindSet = () => {
     return (
         <>
             <Header />
-            <Banner />
+            <Banner
+                subtitle="MINDSHARE | LOGO AND BRANDING"
+                title={`Designing an Identity that Reflects<br />Collaboration, Connection, and Possibility.`}
+                imageSrc={mindshareImage}
+                imageAlt="Mindshare visual"
+                textAnimation="fade-up"
+                imageAnimation="fade-down"
+            />
             <ProjectBrief />
             <Image />
             <Concept />
