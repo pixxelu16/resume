@@ -12,6 +12,7 @@ const IntroSection = () => {
 
     return (
         <section className="Introsection">
+            <div className="custom-container">
             <div className="color-white">
                 <div className="row align-items-center">
                     {/* Text Column */}
@@ -30,6 +31,7 @@ const IntroSection = () => {
                     <div className="col-md-4 hero-img text-end" data-aos="fade-left">
                         <img src={BannerFace} alt="Hero Illustration" className="img-fluid" />
                     </div>
+                </div>
                 </div>
             </div>
         </section>

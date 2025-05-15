@@ -46,7 +46,8 @@ const ProjectSlider = () => {
     const swiperRef = useRef(null);
 
     return (
-        <div className="position-slider px-8 py-10 all-slider">
+        <div className="position-slider px-8 py-10 all-slider ">
+            <div className="custom-container">
             <h4 className="color-purple">See more work:</h4>
 
             <Swiper
@@ -98,6 +99,7 @@ const ProjectSlider = () => {
             >
                 <img src={RightArrowImage} alt="Next" className="custom-icon" />
             </button>
+            </div>
         </div>
     );
 };

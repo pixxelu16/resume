@@ -56,3 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 .color-dark-grey{
   background-color: #111111;
 }
+.custom-container {
+    width: 100%;
+    max-width: 1720px;
+    margin: 0 auto;
+}

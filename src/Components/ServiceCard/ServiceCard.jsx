@@ -60,6 +60,7 @@ const ServicesSection = () => {
 
   return (
     <section className="ServiceCard text-white">
+      <div className="custom-container">
       <div>
         <p className="mb-5 font-24">Services I offer:</p>
         <div className="row g-4">
@@ -102,6 +103,7 @@ const ServicesSection = () => {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </section>

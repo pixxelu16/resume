@@ -21,6 +21,7 @@ const BlankSlider = () => {
   return (
     < >
       <h3 className='text-center font-52 mt-60'>When I’m not working, I like to expore new mediums.</h3>
+      <div className="custom-container">
       <div className="blank-slider-wrapper">
         <img
           src={LeftArrowImage}
@@ -81,6 +82,7 @@ const BlankSlider = () => {
       <div className='d-flex justify-content-center align-items-center mb-60 flex-direction'>
         <h4 className='font-52'>See my work in the  </h4>
         <img src={GalleryImage} alt="" className='gallery-img' />
+      </div>
       </div>
     </>
   );

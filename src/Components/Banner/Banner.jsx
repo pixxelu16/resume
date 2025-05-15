@@ -19,13 +19,16 @@ const Banner = ({
 
   return (
     <section className={`banner-section ${reverse ? 'reverse' : ''}`}>
+      <div className="custom-container">
       <div className="banner-text mindshare-text" data-aos={textAnimation}>
         <p className="subtitle">{subtitle}</p>
         <h1 className="title" dangerouslySetInnerHTML={{ __html: title }} />
       </div>
+       </div>
       <div className="banner-image mindshare-image" data-aos={imageAnimation}>
         <img src={imageSrc} alt={imageAlt} />
       </div>
+     
     </section>
   );
 };

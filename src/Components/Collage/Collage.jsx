@@ -19,6 +19,7 @@ const Collage = () => {
 
   return (
     <div className='Collage'>
+      <div className="custom-container">
       <div data-aos="fade-up">
         <img src={Collage1} alt="" width="100%" />
       </div>
@@ -57,6 +58,7 @@ const Collage = () => {
       <div className='mt-4' data-aos="fade-up">
         <img src={Collage8} alt="" width="100%" />
       </div>
+    </div>
     </div>
   );
 };

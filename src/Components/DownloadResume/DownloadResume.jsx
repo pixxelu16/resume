@@ -6,6 +6,7 @@ import GreyImage from '../../Assets/Images/grey-img.png'
 const ResumeSection = () => {
   return (
 <div className="hand-container">
+  <div className="custom-container">
   <div className="row">
     <div className="col-md-6">
       <img src={GreyImage} alt="" className="grey-img"/>
@@ -15,6 +16,7 @@ const ResumeSection = () => {
       <h5 className="font-52">I am Yash. I am a visual<br/> designer based in New, Delhi. </h5>
       <button className="download-button">Download Resume</button>
     </div>
+  </div>
   </div>
   </div>
  

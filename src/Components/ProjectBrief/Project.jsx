@@ -12,6 +12,7 @@ const ProjectBrief = () => {
 
   return (
     <section className="my-5 text-white project-brief">
+      <div className="custom-container">
       <div className="row">
         {/* Left Column */}
         <div className="col-md-6 mb-4 project-1" data-aos="fade-up">
@@ -42,6 +43,7 @@ const ProjectBrief = () => {
             to continuous evolution, mutual growth, and the strength found in unity.
           </p>
         </div>
+      </div>
       </div>
     </section>
   );

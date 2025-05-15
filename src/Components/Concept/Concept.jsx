@@ -12,9 +12,9 @@ const Concept = () => {
 
   return (
     <section className="Concept">
-      <div>
+      <div className="custom-container">
         <p className="font-20 concept-line" data-aos="fade-down">Concept</p>
-      </div>
+     
       <div className="row padding-top-60">
         <div className="col-md-6 concept-1" data-aos="fade-right">
           <img src={ConceptImage} alt="Concept visual" />
@@ -42,6 +42,7 @@ const Concept = () => {
             <strong> capturing the spirit of working together to create something that lasts.</strong>
           </p>
         </div>
+         </div>
       </div>
     </section>
   );

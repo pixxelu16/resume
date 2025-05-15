@@ -46,6 +46,7 @@ const ProjectShowcase = () => {
 
     return (
         <section className="project-showcase text-white" id="next-project">
+            <div className="custom-container">
             <div className="heading-project">
                 <p>Some Projects I’ve Worked on</p>
                 <a href="/resume/#work-page">
@@ -89,6 +90,7 @@ const ProjectShowcase = () => {
 
             <div className="botton">
                 <button className='orange-button'>See More work ></button>
+            </div>
             </div>
         </section>
     );
