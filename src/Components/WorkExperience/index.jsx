@@ -6,7 +6,7 @@ const BrandWorkHighlights = () => {
 
 
         <>
-            <div className="color-dark-grey padding-work">
+            <div className=" padding-work">
                 <h3 className='color-purple font-48 mb-5 text-center'>Work Experience</h3>
                 <div className="brand-work">
                     <div className="row">

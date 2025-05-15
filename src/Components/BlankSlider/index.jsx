@@ -19,7 +19,7 @@ const BlankSlider = () => {
   }, []);
 
   return (
-    < >
+    < div className='blank-slider' >
       <h3 className='text-center font-52 mt-60'>When I’m not working, I like to expore new mediums.</h3>
       <div className="custom-container">
       <div className="blank-slider-wrapper">
@@ -84,7 +84,7 @@ const BlankSlider = () => {
         <img src={GalleryImage} alt="" className='gallery-img' />
       </div>
       </div>
-    </>
+    </div>
   );
 };
 

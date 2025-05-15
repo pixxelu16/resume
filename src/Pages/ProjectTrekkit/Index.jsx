@@ -6,16 +6,16 @@ import Concept from '../../Components/Concept/Concept';
 import Collage from '../../Components/Collage/Collage';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer'
-import mindshareImage from "../../Assets/Images/mindshare-banner.png";
+import TrekkitBanner from "../../Assets/Images/trekkit-banner.png";
 
 const ProjectMindSet = () => {
     return (
         <>
             <Header />
             <Banner
-                subtitle="MINDSHARE | LOGO AND BRANDING"
-                title={`Designing an Identity that Reflects<br />Collaboration, Connection, and Possibility.`}
-                imageSrc={mindshareImage}
+                subtitle="TREKKIT | APPLICATION DESIGN"
+                title={`Making the process of planning<br /> treks more intuitive.`}
+                imageSrc={TrekkitBanner}
                 imageAlt="Mindshare visual"
                 textAnimation="fade-up"
                 imageAnimation="fade-down"

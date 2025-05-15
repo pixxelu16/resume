@@ -101,4 +101,19 @@
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {}
 
-@media only screen and (min-width: 1291px) and (max-width:1550px) {}
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .brand-work {
+    max-width: 900px;
+}
+.padding-work .font-24 {
+    font-size: 18px;
+}
+.work-custom {
+    padding-left: 80px;
+    padding-bottom: 120px;
+}
+.work-custom ul::before {
+    left: -90px;
+}
+
+}

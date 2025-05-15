@@ -30,6 +30,9 @@ h3.slider-heading {
     font-size: 48px;
     font-weight: 400;
 }
+.position-slider p.color-grey{
+    font-size: 16px;
+}
 
 
 /* Responsive Styles */

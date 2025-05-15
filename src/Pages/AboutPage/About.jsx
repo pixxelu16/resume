@@ -30,8 +30,8 @@ const About = () => {
             </div>
             </div>
             <BrandWorkHighlights/>
+             <BlankSlider/>
             <ServicesSection/>
-            <BlankSlider/>
             <ProjectSlider/>
             <Footer />
         </>

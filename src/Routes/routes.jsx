@@ -4,7 +4,8 @@ import ProjectMindSet from '../Pages/ProjectMindSet';
 import HomePage from '../Pages/HomePage/home';
 import AboutPage from '../Pages/AboutPage/About';
 import WorkPage from '../Pages/WorkPage';
-import GalleryPage from '../Pages/GalleryPage'
+import GalleryPage from '../Pages/GalleryPage';
+import TrekkitPage from '../Pages/ProjectTrekkit/Index';
 
 export default function LayoutRoutes() {
   return (
@@ -15,6 +16,7 @@ export default function LayoutRoutes() {
         <Route path="/about-page" element={<AboutPage />} />
         <Route path ="/gallery-page" element={<GalleryPage/>}/>
         <Route path="/work-page" element={<WorkPage/>} />
+        <Route path ="/trekkit-page" element={<TrekkitPage/>}/>
       </Routes>
     </HashRouter>
   );
