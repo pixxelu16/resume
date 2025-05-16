@@ -14,9 +14,9 @@ export default function LayoutRoutes() {
         <Route path="/" element={<HomePage />} />
         <Route path="/project-mindset" element={<ProjectMindSet />} />
         <Route path="/about-page" element={<AboutPage />} />
-        <Route path ="/gallery-page" element={<GalleryPage/>}/>
+        <Route path ="/gallery-page" element={<GalleryPage/>} />
         <Route path="/work-page" element={<WorkPage/>} />
-        <Route path ="/trekkit-page" element={<TrekkitPage/>}/>
+        <Route path ="/trekkit-page" element={<TrekkitPage/>} />
       </Routes>
     </HashRouter>
   );

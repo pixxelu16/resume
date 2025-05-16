@@ -1,5 +1,5 @@
 .yash-intro {
-    background-image: url(http://localhost:3000/resume/static/media/yash-intro.6ce37be77c2d42f58e91.png);
+    background-image: url('../../Assets/Images/yash-intro.png');
     background-repeat: no-repeat;
     background-position: 14% 5%;
     width: 100%;

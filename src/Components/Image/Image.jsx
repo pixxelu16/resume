@@ -2,16 +2,15 @@ import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Image.css';
-import FullWidhtImage from '../../Assets/Images/infinite-img.png';
 
-const Image = () => {
+const Image = ({ src, alt = "Image", animation = "zoom-in", className = "", duration = 1000 }) => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+    AOS.init({ duration });
+  }, [duration]);
 
   return (
-    <div className="full-width" data-aos="zoom-in">
-      <img src={FullWidhtImage} alt="Infinite visual" />
+    <div className={`full-width ${className}`} data-aos={animation}>
+      <img src={src} alt={alt} />
     </div>
   );
 };

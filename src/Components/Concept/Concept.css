@@ -28,11 +28,11 @@ section.Concept {
     content: "";
     display: block;
     height: 2px;
-    left: 4%;
+    left: 6%;
     margin-left: 1rem;
     position: absolute;
     top: 50%;
-    width: 95%;
+    width: 93%;
 }
 
 .concept-line {
@@ -103,7 +103,7 @@ section.Concept {
 }
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
   .concept-line:after {
-    left: 6%;
-    width: 93%;
+    left: 7%;
+    width: 92%;
 }
 }

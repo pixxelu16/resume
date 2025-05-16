@@ -55,40 +55,38 @@ const ProjectShowcase = () => {
                 </div>
 
                 {projects.map((project, index) => (
-                    <div
-                        className={`row align-items-center mb-5 ${index % 2 !== 0 ? 'flex-row-reverse' : ''}`}
+                    <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link-wrapper"
                         key={index}
-                        data-aos="fade-up"
-                        data-aos-delay={index * 100}
                     >
-                        <div className="col-md-10">
-                            <div className="position-relative">
-                                <img src={project.img} alt={`${project.title} - ${project.subtitle}`} className="img-fluid rounded" />
-                                <div className='display-flex'>
-                                    <div className='width-custom'>
-                                        <h5 className='subtitle'>
-                                            <a
-                                                href={project.link}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="title-link"
-                                            >
-                                                {project.title}
-                                            </a>
-                                        </h5>
-                                        <h6 className="color-grey">{project.subtitle}</h6>
-                                    </div>
-                                    <div>
-                                        <p
-                                            className="mt-2 color-grey"
-                                            dangerouslySetInnerHTML={{ __html: project.desc }}
-                                        />
+                        <div
+                            className={`row align-items-center mb-5 ${index % 2 !== 0 ? 'flex-row-reverse' : ''}`}
+                            data-aos="fade-up"
+                            data-aos-delay={index * 100}
+                        >
+                            <div className="col-md-10">
+                                <div className="position-relative">
+                                    <img src={project.img} alt={`${project.title} - ${project.subtitle}`} className="img-fluid rounded" />
+                                    <div className='display-flex'>
+                                        <div className='width-custom'>
+                                            <h5 className='subtitle title-link'>{project.title}</h5>
+                                            <h6 className="color-grey">{project.subtitle}</h6>
+                                        </div>
+                                        <div>
+                                            <p
+                                                className="mt-2 color-grey"
+                                                dangerouslySetInnerHTML={{ __html: project.desc }}
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-md-2"></div>
                         </div>
-                        <div className="col-md-2"></div>
-                    </div>
+                    </a>
                 ))}
 
                 <div className="botton">

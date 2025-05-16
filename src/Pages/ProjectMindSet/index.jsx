@@ -8,6 +8,8 @@ import Collage from '../../Components/Collage/Collage';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
 import mindshareImage from "../../Assets/Images/mindshare-banner.png";
+import InfiniteImage from '../../Assets/Images/infinite-img.png';
+import ConceptImage from '../../Assets/Images/concept-img.png';
 
 const ProjectMindSet = () => {
   const leftContent = (
@@ -41,21 +43,48 @@ const ProjectMindSet = () => {
       </p>
     </>
   );
-
+const conceptParagraphs = [
+  `The concept draws inspiration from <strong>ripples</strong> — a simple yet powerful symbol of how one idea or action can create<strong> lasting impact</strong>. Like a drop in water, it starts small but expands outward, touching more lives as it moves.`,
+  `When two ripples meet, they create a moment of <strong>collaboration and synergy</strong> — a reflection of how partnerships can strengthen purpose and amplify outcomes. It’s not just about coming together, but about growing together.`,
+  `At the point where the ripples intersect, they form an <strong>infinity symbol</strong> — representing the <strong>endless possibilities</strong> that emerge when people unite around a shared goal. It becomes a visual expression of continuous growth, shared impact, and the long-term change that true collaboration can bring.`,
+  `This concept isn’t just about design — it’s about<strong> capturing the spirit of working together to create something that lasts.</strong>`
+];
   return (
     <>
       <Header />
       <Banner
         subtitle="MINDSHARE | LOGO AND BRANDING"
-        title={`Designing an Identity that Reflects<br />Collaboration, Connection, and Possibility.`}
+        title={
+          <>
+            Designing an Identity that Reflects
+            <br />
+            Collaboration, Connection, and Possibility.
+          </>
+        }
         imageSrc={mindshareImage}
         imageAlt="Mindshare visual"
         textAnimation="fade-up"
         imageAnimation="fade-down"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
-      <Image />
-      <Concept />
+      <Image
+        src={InfiniteImage}
+        alt="Infinite visual"
+        animation="fade-up"
+        className="custom-style"
+        duration={1500}
+      />
+      <Concept
+        title="Concept"
+        image={ConceptImage}
+        imageAlt="Ripples creating infinity"
+        paragraphs={conceptParagraphs}
+        imageAnimation="fade-right"
+        textAnimation="fade-left"
+        imageDelay={0}
+        textDelay={200}
+        aosDuration={1200}
+      />
       <Collage />
       <ProjectSlider />
       <Footer />

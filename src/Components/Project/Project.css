@@ -98,6 +98,16 @@ a.title-link {
     color: #ffffff;
 }
 
+.project-link-wrapper {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.project-link-wrapper:hover {
+    opacity: 0.95;
+}
 /* Responsive Styles */
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .display-flex p {
