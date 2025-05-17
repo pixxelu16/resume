@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.e8835b11.css",
-    "main.js": "/resume/static/js/main.0806f714.js",
+    "main.css": "/resume/static/css/main.16e875ca.css",
+    "main.js": "/resume/static/js/main.c8b82c30.js",
     "static/js/453.ace21015.chunk.js": "/resume/static/js/453.ace21015.chunk.js",
     "static/media/Collage8.png": "/resume/static/media/Collage8.be0c768a183c4b609c6f.png",
     "static/media/mix-image.png": "/resume/static/media/mix-image.b9ddda15d3b894f7ee98.png",
@@ -16,6 +16,7 @@
     "static/media/mobileslider.png": "/resume/static/media/mobileslider.951fec31a08b56e9aaca.png",
     "static/media/collage-2.png": "/resume/static/media/collage-2.65ba5ddf23f7696de758.png",
     "static/media/mindshare-banner.png": "/resume/static/media/mindshare-banner.f94273d069afd4006e23.png",
+    "static/media/Bal-raksha-banner.png": "/resume/static/media/Bal-raksha-banner.78cb55ced621392cfb5a.png",
     "static/media/gallery-10.png": "/resume/static/media/gallery-10.31d841fd9c0863cd9a6a.png",
     "static/media/gallery-13.png": "/resume/static/media/gallery-13.aad3c5fee5538f968bb9.png",
     "static/media/gallery-2.png": "/resume/static/media/gallery-2.d0bb347f87b7cfbb5923.png",
@@ -51,6 +52,7 @@
     "static/media/Collage7.png": "/resume/static/media/Collage7.54224102764fe6fd1f31.png",
     "static/media/concept-img.png": "/resume/static/media/concept-img.a25407465973459b68b2.png",
     "static/media/gallery-8.png": "/resume/static/media/gallery-8.79c1e67a9f406eaf76dc.png",
+    "static/media/fan-pic.png": "/resume/static/media/fan-pic.83fc56892ef977b2202f.png",
     "static/media/yash-intro.png": "/resume/static/media/yash-intro.6ce37be77c2d42f58e91.png",
     "static/media/hand-image.png": "/resume/static/media/hand-image.36d5bea0b1b0536ce22c.png",
     "static/media/gallery-6.png": "/resume/static/media/gallery-6.11e94cb3e5ad22165e4e.png",
@@ -61,12 +63,12 @@
     "static/media/slick.woff": "/resume/static/media/slick.295183786cd8a1389865.woff",
     "static/media/responsive_icon.svg": "/resume/static/media/responsive_icon.2289415165955fe820f8287ec14e8b27.svg",
     "index.html": "/resume/index.html",
-    "main.e8835b11.css.map": "/resume/static/css/main.e8835b11.css.map",
-    "main.0806f714.js.map": "/resume/static/js/main.0806f714.js.map",
+    "main.16e875ca.css.map": "/resume/static/css/main.16e875ca.css.map",
+    "main.c8b82c30.js.map": "/resume/static/js/main.c8b82c30.js.map",
     "453.ace21015.chunk.js.map": "/resume/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8835b11.css",
-    "static/js/main.0806f714.js"
+    "static/css/main.16e875ca.css",
+    "static/js/main.c8b82c30.js"
   ]
 }
