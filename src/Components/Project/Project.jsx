@@ -14,7 +14,7 @@ const projects = [
         title: "Bal Raksha Bharat",
         subtitle: "Logo & Brand Experience",
         desc: "Pitch for Bal Raksha Bharat’s rebranding which aimed to reposition <br/>the company as an optimistic child rights NGO.",
-        link: "https://example.com/project1"
+        link: "/resume/#bal-raksha"
     },
     {
         img: Img2,

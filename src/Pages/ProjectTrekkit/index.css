@@ -213,4 +213,15 @@
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {}
 
-@media only screen and (min-width: 1291px) and (max-width:1550px) {}
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .mobile-showcase {
+    padding: 80px !important;
+}
+.mobile-slider {
+    background-position: 43% 27% !important;
+    background-size: 18% !important;
+    padding: 80px 50px !important;
+}
+
+
+}
