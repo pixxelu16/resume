@@ -9,6 +9,7 @@ import TrekkitPage from '../Pages/ProjectTrekkit/Index';
 import SchoolRaya from '../Pages/SchoolRaya';
 import Titlefolio from '../Pages/TitleFolio';
 import BalRaksha from '../Pages/BalRaksha/Index';
+import NotFoundPage from "../Pages/NotFoundPage";
 
 
 export default function LayoutRoutes() {
@@ -24,8 +25,7 @@ export default function LayoutRoutes() {
         <Route path="/school-raya" element={<SchoolRaya />} />
         <Route path="/title-folio" element={<Titlefolio />} />
         <Route path="/bal-raksha" element={<BalRaksha/>}/>
-        
-
+        <Route path="/404-page" element={<NotFoundPage/>}/>
       </Routes>
     </HashRouter>
   );
