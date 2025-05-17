@@ -3,9 +3,9 @@
     background-repeat: no-repeat;
     background-position: 14% 5%;
     width: 100%;
-    padding: 50px 0px;
     max-width: 1720px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -24,6 +24,7 @@
   .yash-intro h1 {
     font-size: 32px;
   }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {}

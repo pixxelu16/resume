@@ -21,6 +21,15 @@ p.last-service {
 p.last-p {
     width: 80%;
 }
+.ServiceCard .card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.ServiceCard .card-hover:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
 
 /* Responsive Styles */
 

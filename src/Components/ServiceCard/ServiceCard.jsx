@@ -66,7 +66,7 @@ const ServicesSection = () => {
 
   const renderCard = (service, index) => (
     <div key={index} data-aos="fade-up" data-aos-delay={index * 100} className="p-2">
-      <div className="p-4 h-100 rounded" style={{ backgroundColor: service.bg, color: '#000' }}>
+      <div className="p-4 h-100 rounded card-hover" style={{ backgroundColor: service.bg, color: '#000' }}>
         <img src={service.icon} alt="icon" style={{ marginBottom: '6rem' }} />
         <p className="mb-1" style={{ fontSize: '20px' }}>{service.number}</p>
         <p
@@ -88,7 +88,7 @@ const ServicesSection = () => {
   );
 
   return (
-    <section className="ServiceCard text-white">
+    <section className="ServiceCard  text-white ">
       <div className="custom-container">
         <p className="mb-5 font-24">Services I offer:</p>
 

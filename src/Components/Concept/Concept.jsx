@@ -9,6 +9,7 @@ const Concept = ({
   image,
   imageAlt = "Concept visual",
   paragraphs = [],
+  heading = [], // Headings to appear after the paragraphs
   imageAnimation = "fade-right",
   textAnimation = "fade-left",
   imageDelay = 0,
@@ -32,6 +33,15 @@ const Concept = ({
             {paragraphs.map((para, index) => (
               <p key={index} dangerouslySetInnerHTML={{ __html: para }}></p>
             ))}
+            
+            {/* Heading(s) after paragraphs */}
+            {heading.length > 0 && (
+              <div className="concept-headings mt-4">
+                {heading.map((head, idx) => (
+                  <h4 key={idx} className="mb-2 color-purple  font-48">{head}</h4>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>

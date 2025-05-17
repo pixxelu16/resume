@@ -21,9 +21,9 @@ const MobileShowcase = () => (
         Everything you need for your next big trek on one platform.
       </h2>
 
-      <div className="row justify-content-center mobile-padding pt-4">
+      <div className="row justify-content-center mobile-padding pt-4 mobile-block">
         {items.map((item, idx) => (
-          <div className="col-6 col-sm-3 mb-4" key={idx}>
+          <div className="col-6 col-sm-3 mb-4 " key={idx}>
             <div className="phone-frame mx-auto mb-2">
               <img src={item.imgSrc} alt={item.label} className="img-fluid" />
             </div>
