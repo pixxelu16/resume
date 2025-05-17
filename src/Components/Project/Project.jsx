@@ -48,7 +48,7 @@ const ProjectShowcase = () => {
         <section className="project-showcase text-white" id="next-project">
             <div className="custom-container">
                 <div className="heading-project">
-                    <p>Some Projects I’ve Worked on</p>
+                    <p className='font-family'>Some Projects I’ve Worked on</p>
                     <a href="/resume/#work-page">
                         <button className='orange-button-1'>See All Projects +</button>
                     </a>

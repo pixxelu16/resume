@@ -104,7 +104,9 @@ a.title-link {
     display: block;
     transition: opacity 0.3s ease;
 }
-
+.font-family {
+    font-family: 'Poppins';
+}
 .project-link-wrapper:hover {
     opacity: 0.95;
 }
