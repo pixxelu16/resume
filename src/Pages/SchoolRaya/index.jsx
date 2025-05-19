@@ -105,34 +105,34 @@ const ProjectRaya = () => {
       <div className="raya-collage">
         <div className="custom-container">
           <div className="row">
-            <div className="col-md-12 mb-4">
+            <div className="col-md-12 padding-bottom-60">
               <img src={Raya3} alt="" />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 padding-bottom-60">
               <img src={Raya4} alt="" />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 padding-bottom-60">
                 <img src={Raya5} alt="" />
             </div>
-             <div className="col-md-12 mb-4">
+             <div className="col-md-12 padding-bottom-60">
               <img src={Raya6} alt="" />
             </div>
-              <div className="col-md-8 mb-4">
+              <div className="col-md-8 padding-bottom-60">
               <img src={Raya7} alt="" />
             </div>
-            <div className="col-md-4 mb-4">
+            <div className="col-md-4 padding-bottom-60">
                 <img src={Raya8} alt="" />
             </div>
-             <div className="col-md-6 mb-4">
+             <div className="col-md-6 padding-bottom-60">
               <img src={Raya9} alt="" />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 padding-bottom-60">
                 <img src={Raya10} alt="" />
             </div>
-              <div className="col-md-12 mb-4">
+              <div className="col-md-12 padding-bottom-60">
               <img src={Raya11} alt="" />
             </div>
-              <div className="col-md-8 mb-4">
+              <div className="col-md-8 padding-bottom-60">
               <img src={Raya12} alt="" />
             </div>
           </div>
