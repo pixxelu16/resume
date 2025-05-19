@@ -15,6 +15,15 @@ import Fan4 from '../../Assets/Images/fan-4.png';
 import './Index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import BalRakshaImg1 from '../../Assets/Images/bal-raksha-1.png';
+import BalRakshaImg2 from '../../Assets/Images/bal-raksha-2.png';
+import BalRakshaImg3 from '../../Assets/Images/bal-raksha-3.png';
+import BalRakshaImg4 from '../../Assets/Images/bal-raksha-4.png';
+import BalRakshaImg5 from '../../Assets/Images/bal-raksha-5.png';
+import BalRakshaImg6 from '../../Assets/Images/bal-raksha-6.png';
+import BalRakshaImg7 from '../../Assets/Images/BalRakshaImg7.png';
+import BalRakshaImg8 from '../../Assets/Images/BalRakshaImg8.png';
+
 
 const ProjectMindSet = () => {
   useEffect(() => {
@@ -46,7 +55,7 @@ const ProjectMindSet = () => {
   ];
 
   const rightContent = (
-    <div data-aos="fade-left">
+    <div data-aos="fade-lef">
       <h4>Brief:</h4>
       <p>
         This project was one of the few routes presented to Bal Raksha Bharat for their rebranding, done in 2022 by Clay Design Strategy
@@ -61,7 +70,7 @@ const ProjectMindSet = () => {
   );
 
   return (
-    <div className="trekkit-page">
+    <div className="bal-raksha-page">
       <Header />
       <Banner
         subtitle="BAL RAKSHA BHARAT | LOGO AND BRANDING"
@@ -82,9 +91,10 @@ const ProjectMindSet = () => {
       />
       <div className='balraksha-concept'>
         <div className="custom-container">
+          <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Concept</p>
           <div className="row">
             <div className="col-md-6">
-              <img src={FanPic} alt="" className='fan-pic'/>
+              <img src={FanPic} alt="" className='fan-pic' />
             </div>
             <div className="col-md-6">
               <div className='d-flex fan-p font-24 weight-300'>
@@ -114,8 +124,53 @@ const ProjectMindSet = () => {
             </div>
           </div>
         </div>
-
       </div>
+      <div className="bal-raksha-collage">
+
+        <div className="custom-container">
+          <div className="row">
+            <div className="col-md-12 mb-4">
+              <img src={BalRakshaImg1} alt="" />
+            </div>
+            <div className="col-md-6 mb-4">
+              <img src={BalRakshaImg2} alt="" />
+            </div>
+            <div className="col-md-6 mb-4">
+              <img src={BalRakshaImg3} alt="" />
+            </div>
+            <div className="col-md-12 mb-4">
+              <img src={BalRakshaImg4} alt="" />
+            </div>
+            <div className="col-md-8 mb-4">
+              <img src={BalRakshaImg5} alt="" />
+            </div>
+            <div className="col-md-4 mb-4">
+              <img src={BalRakshaImg6} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='balraksha-concept'>
+        <div className="custom-container">
+          <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Installations</p>
+          <div className="row">
+            <div className="col-md-7">
+              <img src={BalRakshaImg7} alt="" className='fan-pic' />
+            </div>
+            <div className="col-md-5">
+              <div className=' fan-p font-24 weight-300  small-font'>
+                <p>Bal Raksha Bharat’s Impact Installations are permanent, meaningful artworks placed in corporate or public spaces-serving as both symbols of support and ongoing reminders of the promise to protect every child.</p>
+                <p>Created in collaboration with children- using handcrafted elements like paper cranes representing the number of lives impacted- these installations are designed to be displayed in places like reception areas, campuses, or common spaces. They act as powerful landmarks that celebrate partnership and purpose.</p>
+                <p>More than just art, they offer partner organizations a way to showcase their commitment to child rights in a form that’s visible, emotional, and enduring.</p>
+              </div>
+            </div>
+            <div className="col-md-12">
+              <img src={BalRakshaImg8} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div data-aos="fade-up">
         <ProjectSlider />
       </div>

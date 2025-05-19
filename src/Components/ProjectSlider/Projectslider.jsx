@@ -97,7 +97,7 @@ const ProjectSlider = () => {
                 onClick={() => swiperRef.current?.slideNext()}
                 className=""
             >
-                <img src={RightArrowImage} alt="Next" className="custom-icon" />
+                <img src={RightArrowImage} alt="Next" className="custom-icon w-auto" />
             </button>
             </div>
         </div>

@@ -31,7 +31,7 @@ const ProjectMindSet = () => {
   }, []);
 
   const leftContent = (
-    <div data-aos="fade-right">
+    <div data-aos="fade-up">
       <div className="mb-4">
         <h5>Nature of Project</h5>
         <p>Academic Project</p>
@@ -52,7 +52,7 @@ const ProjectMindSet = () => {
   ];
 
   const rightContent = (
-    <div data-aos="fade-left">
+    <div data-aos="fade-up">
       <h4>Brief:</h4>
       <p>
         The process of planning treks can be quite intimidating - from choosing
@@ -101,8 +101,8 @@ const ProjectMindSet = () => {
         image={TrekitImg2}
         imageAlt="Trekkit concept visual"
         paragraphs={conceptParagraphs}
-        imageAnimation="fade-right"
-        textAnimation="fade-left"
+        imageAnimation="fade-up"
+        textAnimation="fade-up"
         imageDelay={0}
         textDelay={200}
         aosDuration={1200}

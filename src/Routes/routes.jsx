@@ -7,7 +7,7 @@ import WorkPage from '../Pages/WorkPage';
 import GalleryPage from '../Pages/GalleryPage';
 import TrekkitPage from '../Pages/ProjectTrekkit/Index';
 import SchoolRaya from '../Pages/SchoolRaya';
-import Titlefolio from '../Pages/TitleFolio';
+import TitleFolio from '../Pages/TitleFolio';
 import BalRaksha from '../Pages/BalRaksha/Index';
 import NotFoundPage from "../Pages/NotFoundPage";
 
@@ -23,9 +23,10 @@ export default function LayoutRoutes() {
         <Route path="/work-page" element={<WorkPage />} />
         <Route path="/trekkit-page" element={<TrekkitPage />} />
         <Route path="/school-raya" element={<SchoolRaya />} />
-        <Route path="/title-folio" element={<Titlefolio />} />
-        <Route path="/bal-raksha" element={<BalRaksha/>}/>
-        <Route path="/404-page" element={<NotFoundPage/>}/>
+        <Route path="/title-folio" element={<TitleFolio />} />
+        <Route path="/bal-raksha" element={<BalRaksha />} />
+        <Route path="/raya-page" element={<SchoolRaya />} />
+        <Route path="/404-page" element={<NotFoundPage />} />
       </Routes>
     </HashRouter>
   );

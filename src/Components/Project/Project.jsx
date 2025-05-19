@@ -35,7 +35,7 @@ const projects = [
         title: "The School of Raya",
         subtitle: "App Design & Research",
         desc: "Branding pitch made for an IV league International Board school in Bengaluru <br/> to reflect their ideas of nature and flow",
-        link: "https://example.com/project4"
+        link: "/resume/#raya-page"
     }
 ];
 
