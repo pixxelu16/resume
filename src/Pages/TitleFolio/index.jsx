@@ -111,7 +111,7 @@ const ProjectMindSet = () => {
                     <div className="row up-border">
                           <p className='font-24'>Babi (<span>Documentary by </span>Maithili Ajay Phatak)</p>
                         <div className="col-md-12 text-center">
-                            <img src={Titlefolio10} alt="" className='w-100'/>
+                            <img src={Titlefolio10} alt=""/>
                         </div>
                     </div>
                     <div className="row up-border">
