@@ -57,7 +57,6 @@ const ProjectShowcase = () => {
                 {projects.map((project, index) => (
                     <a
                         href={project.link}
-                        target="_blank"
                         rel="noopener noreferrer"
                         className="project-link-wrapper"
                         key={index}
@@ -90,7 +89,10 @@ const ProjectShowcase = () => {
                 ))}
 
                 <div className="botton">
-                    <button className='orange-button'>See More work ></button>
+                    <a href="/resume/#work-page">
+                        <button className='orange-button'>See More work ></button>
+                    </a>
+
                 </div>
             </div>
         </section>
