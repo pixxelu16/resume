@@ -96,9 +96,14 @@ button.filter-btn {
     margin: 10px 0px;
     font-size: 14px;
  }
- .filter-nav {
+.filter-nav {
     gap: 0px;
+    margin-top: 20px;
 }
+.gallery-heading br {
+    display: none;
+}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {}

@@ -11,7 +11,7 @@ const Footer = () => {
                 <a href="#work">WORK</a>
                 <a href="#gallery">GALLERY</a>
                 <a href="#experimental" className="experimental-link">
-                    <img src={Experimental} alt="" />
+                    <img src={Experimental} alt="" className="experimental-img" />
                 </a>
             </div>
             <div className="footet-social">

@@ -32,15 +32,13 @@ footer {
 
 
 /* Responsive Styles */
-@media only screen and (min-width: 1025px) and (max-width: 1290px){
+@media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .footer-link .experimental-link {
         padding: 30px 62px;
     }
 }
-@media (max-width: 1024px) {
 
-
-}
+@media (max-width: 1024px) {}
 
 @media (max-width: 768px) {
     footer {
@@ -49,7 +47,7 @@ footer {
 
     footer h3 {
         font-size: 34px !important;
-        text-align: left;
+        text-align: center;
     }
 
     .footer-link {
@@ -76,5 +74,19 @@ footer {
 
     .footer-link a {
         font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer-link {
+        align-items: center;
+    }
+
+    .footer-link {
+    align-items: center;
+    text-align: center;
+}
+
+    .footet-social {
+        text-align: center;
     }
 }

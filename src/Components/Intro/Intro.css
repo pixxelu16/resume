@@ -33,6 +33,9 @@
  .font-16 {
    font-size: 16px;
  }
+ .mobile-show button {
+    display: none;
+}
 
  @media (max-width: 767px) {
    .hero-heading {
@@ -64,6 +67,12 @@
    .font-16 {
      font-size: 14px;
    }
+   .desktop-show button {
+    display: none;
+}
+.mobile-show button {
+    display: block;
+}
  }
  @media only screen and (min-width: 1291px) and (max-width:1550px) {
 .hero-heading {

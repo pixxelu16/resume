@@ -19,22 +19,22 @@ import Collage11 from '../../Assets/Images/gallery-images/gallery-11.png';
 import Collage12 from '../../Assets/Images/gallery-images/gallery-12.png';
 import Collage13 from '../../Assets/Images/gallery-images/gallery-13.png';
 
-const categories = ['All', 'Sketchbooks', 'Motion', 'Stickers', 'Zines'];
+const categories = ['All', 'Sketchbooks', 'Motion'];
 
 const allItems = [
   { id: 1, category: 'Sketchbooks', img: Collage1 },
   { id: 2, category: 'Motion', img: Collage2 },
-  { id: 3, category: 'Stickers', img: Collage3 },
+  { id: 3, category: 'Motion', img: Collage3 },
   { id: 4, category: 'Sketchbooks', img: Collage4 },
-  { id: 5, category: 'Zines', img: Collage5 },
+  { id: 5, category: 'Motion', img: Collage5 },
   { id: 6, category: 'Motion', img: Collage6 },
   { id: 7, category: 'Sketchbooks', img: Collage7 },
-  { id: 8, category: 'Zines', img: Collage8 },
+  { id: 8, category: 'Sketchbooks', img: Collage8 },
   { id: 9, category: 'Motion', img: Collage9 },
   { id: 10, category: 'Sketchbooks', img: Collage10 },
-  { id: 11, category: 'Zines', img: Collage11 },
+  { id: 11, category: 'Sketchbooks', img: Collage11 },
   { id: 12, category: 'Sketchbooks', img: Collage12 },
-  { id: 13, category: 'Zines', img: Collage13 },
+  { id: 13, category: 'Motion', img: Collage13 },
 ];
 
 const WorkGallery = () => {

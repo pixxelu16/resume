@@ -21,7 +21,7 @@ const IntroSection = () => {
                         <h3 className="hero-heading mb-5">
                             Hello, I am Yash 🤓. I am a Visual Designer based in New Delhi, India. Graphic design is my passion 🙏. I do creative branding with punchy visuals 💥 which are sure to capitivate people 👀
                         </h3>
-                        <div className="hero-buttons d-flex gap-4 mt-4">
+                        <div className="hero-buttons d-flex gap-4 mt-4 desktop-show">
                             <button className="grey-button font-16">Download Resume</button>
                             <button className="orange-button font-16">See About Me</button>
                         </div>
@@ -30,6 +30,10 @@ const IntroSection = () => {
                     {/* Image Column */}
                     <div className="col-md-4 hero-img text-end" data-aos="fade-left">
                         <img src={BannerFace} alt="Hero Illustration" className="img-fluid" />
+                        <div className="hero-buttons d-flex gap-4 mt-4 mobile-show">
+                            <button className="grey-button font-16">Download Resume</button>
+                            <button className="orange-button font-16">See About Me</button>
+                        </div>
                     </div>
                 </div>
                 </div>

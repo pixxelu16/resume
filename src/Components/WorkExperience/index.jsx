@@ -6,20 +6,20 @@ const BrandWorkHighlights = () => {
 
 
         <>
-            <div className=" padding-work">
+            <div className="padding-work font-small-24">
                 <h3 className='color-purple font-48 mb-5 text-center'>Work Experience</h3>
                 <div className="brand-work">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="color-white">
-                                <p className='font-24 weight-700'>Senior Visual Designer<br />
+                                <p className='font-24 weight-700 font-small-24'>Senior Visual Designer<br />
                                     Mayur Hajare Consultancy, Pune</p>
                                 <p className='font-24 weight-300'>Sept 2025 - Mar 2025<br />
                                     (6 month Contract)</p>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className='color-white font-24 weight-300 work-custom'>
+                            <div className='color-white font-24 weight-300 work-custom font-small-24'>
                                 <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem' }}>
                                     <li>Created exhibition graphics and collaterals for P&amp;I and CAB, enhancing visual impact.</li>
                                     <li>Led full brand development for MHC’s design division (1by0), including audit, naming, &amp; identity.</li>
@@ -33,14 +33,14 @@ const BrandWorkHighlights = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="color-white">
-                                <p className='font-24 weight-700'> Visual Designer
+                                <p className='font-24 weight-700 font-small-24'> Visual Designer
                                     <br />
                                     The Ayurveda Experience, Gurugram</p>
                                 <p className='font-24 weight-300'>June 2024 - August 2024</p>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className='color-white font-24 weight-300 work-custom'>
+                            <div className='color-white font-24 weight-300 work-custom font-small-24'>
                                 <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem' }}>
                                     <li>Designed static and motion posts for Instagram and Facebook to strengthen brand presence.</li>
                                     <li>Created targeted Google and Facebook ads to promote key offers.</li>
@@ -54,13 +54,13 @@ const BrandWorkHighlights = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="color-white">
-                                <p className='font-24 weight-700'>Visual Design Intern <br />
+                                <p className='font-24 weight-700 font-small-24'>Visual Design Intern <br />
                                     Clay Design Internship, Mumbai</p>
                                 <p className='font-24 weight-300'>January 2023 - November 2023</p>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className='color-white font-24 weight-300 work-custom'>
+                            <div className='color-white font-24 weight-300 work-custom font-small-24'>
                                 <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem' }}>
                                     <li>Branding guidelines for Cleartrip and Botim (Publication Design)</li>
                                     <li>Branding route and assisting in brand application of Bal Raksha Bharat and The School of Raya.</li>
@@ -74,11 +74,11 @@ const BrandWorkHighlights = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="color-white ">
-                                <p className='font-24 weight-700'>Freelancing</p>
+                                <p className='font-24 weight-700 font-small-24'>Freelancing</p>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className='color-white font-24 weight-300 work-custom'>
+                            <div className='color-white font-24 weight-300 work-custom font-small-24'>
                                 <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem' }}>
                                     <li>Developed branding for Mindshare Solutions, a marketing firm based in Pune.</li>
                                     <li>Created visual identity for Enajori Music Festival in Guwahati.</li>
