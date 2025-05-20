@@ -184,6 +184,10 @@ a.title-link {
 p.mt-2.color-grey >br {
     display: none !important;
 }
+.orange-button-1 {
+    font-size: 14px;
+}
+
 }
 
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
