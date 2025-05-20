@@ -13,16 +13,16 @@
   .yash-intro {
     background-position: 17% 5%;
     padding: 80px 20px;
-    background-size: 70%;
+    background-size: 60%;
   }
 
-  img.banner-face {
-    width: 90%;
-    margin-top: 120px;
-  }
+img.banner-face {
+    width: 72% !important;
+    margin-top: 85px;
+}
 
   .yash-intro h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
 }
