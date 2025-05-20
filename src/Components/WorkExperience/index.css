@@ -100,7 +100,23 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .work-custom {
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+ .padding-work .font-24 {
+    font-size: 18px;
+}
+.padding-work {
+    padding: 40px;
+}
+.work-custom ul::before {
+    left: -26px;
+    width: 14px;
+    height: 14px;
+}
+}
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {}
 

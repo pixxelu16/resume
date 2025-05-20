@@ -35,7 +35,7 @@ button.download-button {
     }
 
     .margin-bottom-10rem {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         margin-top: 1rem;
     }
 
@@ -43,13 +43,12 @@ button.download-button {
         font-size: 32px;
     }
 
-    button.download-button {
-        padding: 20px;
-        border-radius: 20px;
-        font-size: 20px;
-        margin-top: 45px;
-
-    }
+   button.download-button {
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 45px;
+}
 
 
 }

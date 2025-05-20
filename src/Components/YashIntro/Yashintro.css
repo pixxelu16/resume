@@ -27,7 +27,25 @@ img.banner-face {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+img.banner-face {
+    width: 50% !important;
+    margin-top: 140px;
+}
+
+  .yash-intro h1 {
+    font-size: 34px;
+  }
+  
+  .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 40%;
+  }
+
+
+}
 
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {
@@ -62,5 +80,15 @@ img.banner-face {
 }
 .heading-project {
     padding: 0px 0px 60px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    img.banner-face {
+    width: 65% !important;
+    margin-top: 200px;
+}
+.yash-intro {
+    background-size: 50%;
 }
 }

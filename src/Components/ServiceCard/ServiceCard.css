@@ -64,7 +64,14 @@ p.last-p {
 }
 
 
-@media (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    section.ServiceCard {
+    width: 100%;
+    padding: 40px;
+    background-color: #111111;
+}
+
+}
 
 @media (max-width: 768px) {
     section.ServiceCard {
@@ -99,6 +106,9 @@ p.last-p {
 
 .ServiceCard .card-hover:hover {
   transform:none !important;
+}
+p.last-service {
+    margin-bottom: 52px;
 }
 }
 

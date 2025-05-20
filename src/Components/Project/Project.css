@@ -104,12 +104,15 @@ a.title-link {
     display: block;
     transition: opacity 0.3s ease;
 }
+
 .font-family {
     font-family: 'Poppins';
 }
+
 .project-link-wrapper:hover {
     opacity: 0.95;
 }
+
 /* Responsive Styles */
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .display-flex p {
@@ -125,15 +128,55 @@ a.title-link {
     }
 }
 
-@media (max-width: 1024px) {}
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-.project-showcase .heading-project {
-    padding: 0px 0px 40px;
-    flex-direction: column;
-    align-items:self-start;
+    .color-grey {
+        font-size: 16px !important;
+    }
+
+    section.Introsection {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .project-showcase .heading-project {
+    flex-direction: row;
 }
+.project-showcase {
+    background-color: #111111;
+    width: 100%;
+    padding: 40px;
+}
+.project-showcase .col-md-10{
+    width: 100%;
+}
+p.mt-2.color-grey >br {
+    display: none;
+}
+.display-flex {
+    align-items: baseline;
+    gap: 20px;
+}
+.width-custom {
+    width: 80%;
+}
+ .position-relative h5.subtitle {
+    font-size: 20px;
+}
+p.mt-2.color-grey:before {
+    left: -30px;
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+    .project-showcase .heading-project {
+        padding: 0px 0px 40px;
+        flex-direction: column;
+        align-items: self-start;
+    }
+
     .heading-project p {
         text-align: center !important;
     }
@@ -181,17 +224,19 @@ a.title-link {
         height: 380px;
         object-fit: cover;
     }
-p.mt-2.color-grey >br {
-    display: none !important;
-}
-.orange-button-1 {
-    font-size: 14px;
-}
+
+    p.mt-2.color-grey>br {
+        display: none !important;
+    }
+
+    .orange-button-1 {
+        font-size: 14px;
+    }
 
 }
 
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
-  .position-relative h5.subtitle {
-    font-size: 20px;
-}
+    .position-relative h5.subtitle {
+        font-size: 20px;
+    }
 }

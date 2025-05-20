@@ -38,7 +38,14 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+   footer .font-74 {
+    font-size: 60px;
+}
+footer {
+        padding: 40px;
+    }
+}
 
 @media (max-width: 768px) {
     footer {

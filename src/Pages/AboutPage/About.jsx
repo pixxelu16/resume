@@ -11,7 +11,7 @@ import BlankSlider from '../../Components/BlankSlider/index.jsx';
 
 const About = () => {
     return (
-        <>
+        < div className='about-page'>
             <Header />
             <DownloadResume />
             <div className="about-resume"> 
@@ -34,7 +34,7 @@ const About = () => {
             <ServicesSection/>
             <ProjectSlider/>
             <Footer />
-        </>
+        </div>
     );
 };
 export default About;

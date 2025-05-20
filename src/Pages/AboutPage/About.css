@@ -75,26 +75,63 @@
 
 
   @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .about-resume {
-        padding: 40px 20px;
-    }
+ .about-resume {
+    padding: 0px 20px;
+}
 
     .padding-right-70 {
     padding-right: 0px;
 }
-.grey-content p {
+
+.about-page .grey-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.about-page .font-24 {
     font-size: 18px;
-    margin-bottom: 25px;
+}
+.about-page  ul {
+font-size: 16px;
+}
+h3.color-purple.font-48.mb-5.text-center {
+    font-size: 44px;
+    text-align: left !important;
+    margin: 20px 0px !important;
 }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+.hand-container {
+    background: none;
+        padding: 40px 40px;
+}
+.hand-container .col-md-6{
+  width: 100%;
+}
+.hand-container .col-md-6 img{
+  width: 100%;
+}
+.margin-bottom-10rem {
+    margin-bottom: 3rem;
+}
+.padding-right-70 {
+    padding-right: 0px;
+}
+.hand-container  .font-52 {
+    font-size: 44px;
+}
+.about-resume {
+    padding: 40px;
+}
+.about-resume .col-md-8{
+   width: 100%;
+}
+.about-resume .col-md-4{
+   width: 100%;
+}
 
 }
 
-@media only screen and (min-width: 1280px) and (max-width:1390px) {
-
-}
 
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
   .grey-content p {

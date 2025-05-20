@@ -80,3 +80,15 @@
 }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    section.Introsection {
+    padding: 40px;
+}
+.hero-heading {
+    font-size: 34px;
+}
+.hero-buttons button {
+    padding: 5px 32px;
+}
+}
