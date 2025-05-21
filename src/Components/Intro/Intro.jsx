@@ -3,7 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BannerFace from '../../Assets/Images/Banner-Face.png';
-import './Intro.css'
+import './Intro.css';
+import YashResume from '../../Assets/pdf/yash-cv.pdf';
 
 const IntroSection = () => {
     useEffect(() => {
@@ -17,13 +18,13 @@ const IntroSection = () => {
                 <div className="row align-items-center">
                     {/* Text Column */}
                     <div className="col-md-7" data-aos="fade-down">
-                        <p className='font-24 mb-5'>Hello,</p>
+                        <p className='font-24 mb-5 font-pop'>Hello,</p>
                         <h3 className="hero-heading mb-5">
                             Hello, I am Yash 🤓. I am a Visual Designer based in New Delhi, India. Graphic design is my passion 🙏. I do creative branding with punchy visuals 💥 which are sure to capitivate people 👀
                         </h3>
                         <div className="hero-buttons d-flex gap-4 mt-4 desktop-show">
-                            <button className="grey-button font-16">Download Resume</button>
-                            <button className="orange-button font-16">See About Me</button>
+                             <a href={YashResume} download> <button className="grey-button font-16">Download Resume</button></a>
+                            <a href="/resume/#about-page"><button className="orange-button font-16">See About Me</button></a>
                         </div>
                     </div>
                     <div className="col-md-1"></div>
@@ -31,8 +32,8 @@ const IntroSection = () => {
                     <div className="col-md-4 hero-img text-end" data-aos="fade-up">
                         <img src={BannerFace} alt="Hero Illustration" className="img-fluid" />
                         <div className="hero-buttons d-flex gap-4 mt-4 mobile-show">
-                            <button className="grey-button font-16">Download Resume</button>
-                            <button className="orange-button font-16">See About Me</button>
+                             <a href={YashResume} download> <button className="grey-button font-16">Download Resume</button></a>
+                            <a href="/resume/#about-page"><button className="orange-button font-16">See About Me</button></a>
                         </div>
                     </div>
                 </div>

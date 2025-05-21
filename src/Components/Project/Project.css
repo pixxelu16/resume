@@ -14,7 +14,9 @@
     left: -15px;
     top: 0px;
 }
-
+.project-showcase .subtitle {
+text-transform: capitalize;
+}
 .subtitle {
     position: relative;
 }
@@ -113,6 +115,18 @@ a.title-link {
     opacity: 0.95;
 }
 
+.orange-button-with-poppin {
+    background: #ff4c00;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 33px;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
 /* Responsive Styles */
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .display-flex p {
@@ -139,43 +153,55 @@ a.title-link {
         width: 100%;
         padding: 40px 20px;
     }
+
     .project-showcase .heading-project {
-    flex-direction: row;
-}
-.project-showcase {
-    background-color: #111111;
-    width: 100%;
-    padding: 40px;
-}
-.project-showcase .col-md-10{
-    width: 100%;
-}
-p.mt-2.color-grey >br {
-    display: none;
-}
-.display-flex {
-    align-items: baseline;
-    gap: 20px;
-}
-.width-custom {
-    width: 80%;
-}
- .position-relative h5.subtitle {
-    font-size: 20px;
-}
-p.mt-2.color-grey:before {
-    left: -30px;
-}
+        flex-direction: row;
+    }
+
+    .project-showcase {
+        background-color: #111111;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .project-showcase .col-md-10 {
+        width: 100%;
+    }
+
+    p.mt-2.color-grey>br {
+        display: none;
+    }
+
+    .display-flex {
+        align-items: baseline;
+        gap: 20px;
+    }
+
+    .width-custom {
+        width: 80%;
+    }
+
+    .position-relative h5.subtitle {
+        font-size: 20px;
+    }
+
+    p.mt-2.color-grey:before {
+        left: -30px;
+    }
 
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
-    .project-showcase .heading-project {
-        padding: 0px 0px 40px;
-        flex-direction: column;
-        align-items: self-start;
-    }
+    .heading-project p {
+    font-size: 12px;
+    margin: 0px;
+}
+.project-showcase .heading-project {
+    padding: 0px 0px 40px;
+    align-items: center;
+    flex-direction: row;
+}
 
     .heading-project p {
         text-align: center !important;
@@ -220,6 +246,12 @@ p.mt-2.color-grey:before {
         font-size: 14px;
     }
 
+    .orange-button-with-poppin {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+
     .rounded {
         height: 380px;
         object-fit: cover;
@@ -230,7 +262,7 @@ p.mt-2.color-grey:before {
     }
 
     .orange-button-1 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }

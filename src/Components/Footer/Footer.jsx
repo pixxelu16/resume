@@ -7,10 +7,10 @@ const Footer = () => {
         <footer>
             <h3 className="font-74 color-white">LETS BUILD SOMETHING COOL TOGETHER : )</h3>
             <div className="footer-link">
-                <a href="#about">ABOUT</a>
-                <a href="#work">WORK</a>
-                <a href="#gallery">GALLERY</a>
-                <a href="#experimental" className="experimental-link">
+                  <a href="/resume/#about-page">ABOUT</a>
+                <a href="/resume/#work-page">WORK</a>
+                <a href="/resume/#gallery-page">GALLERY</a>
+                <a href="/resume/#404-page" className="experimental-link">
                     <img src={Experimental} alt="" className="experimental-img" />
                 </a>
             </div>

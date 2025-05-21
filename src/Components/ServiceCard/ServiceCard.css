@@ -100,8 +100,9 @@ p.last-p {
         height: 380px !important;
         object-fit: cover;
     }
-    .slick-dots li button:before {
+.slick-dots li button:before {
     color: #ffffff !important;
+    font-size: 12px !important;
 }
 
 .ServiceCard .card-hover:hover {

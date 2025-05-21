@@ -10,6 +10,7 @@ import Footer from '../../Components/Footer/Footer';
 import mindshareImage from "../../Assets/Images/mindshare-banner.png";
 import InfiniteImage from '../../Assets/Images/infinite-img.png';
 import ConceptImage from '../../Assets/Images/concept-img.png';
+import './Index.css'
 
 const ProjectMindSet = () => {
   const leftContent = (
@@ -54,13 +55,8 @@ const conceptParagraphs = [
       <Header />
       <Banner
         subtitle="MINDSHARE | LOGO AND BRANDING"
-        title={
-          <>
-            Designing an Identity that Reflects
-            <br />
-            Collaboration, Connection, and Possibility.
-          </>
-        }
+        title={` Designing an Identity that Reflects
+            Collaboration, Connection, and Possibility.` }
         imageSrc={mindshareImage}
         imageAlt="Mindshare visual"
         textAnimation="fade-up"
