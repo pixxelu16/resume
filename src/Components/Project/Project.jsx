@@ -90,7 +90,7 @@ const ProjectShowcase = () => {
 
                 <div className="botton">
                     <a href="/resume/#work-page">
-                        <button className='orange-button-with-poppin'>See More work ></button>
+                        <button className='orange-button-with-poppin'>See More Work ></button>
                     </a>
 
                 </div>
