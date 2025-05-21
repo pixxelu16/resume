@@ -18,7 +18,6 @@ const IntroSection = () => {
                 <div className="row align-items-center">
                     {/* Text Column */}
                     <div className="col-md-7" data-aos="fade-down">
-                        <p className='font-24 mb-5 font-pop'>Hello,</p>
                         <h3 className="hero-heading mb-5">
                             Hello, I am Yash 🤓. I am a Visual Designer based in New Delhi, India. Graphic design is my passion 🙏. I do creative branding with punchy visuals 💥 which are sure to capitivate people 👀
                         </h3>
