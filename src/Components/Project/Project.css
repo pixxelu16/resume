@@ -267,6 +267,15 @@ a.title-link {
     .padding-less{
     padding: 5px 18px !important;
 }
+.project-2 p {
+    font-size: 14px;
+}
+.project-1 p {
+    font-size: 14px;
+}
+.project-1 h5 {
+    font-size: 18px;
+}
 
 }
 
