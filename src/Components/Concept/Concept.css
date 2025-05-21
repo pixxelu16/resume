@@ -71,9 +71,9 @@ section.Concept {
         width: 100%;
     }
     .concept-line:after {
-        left: 10% !important;
-        width: 89% !important;
-    }
+    left: 14% !important;
+    width: 85% !important;
+}
     .concept-2 {
         width: 100%;
     }

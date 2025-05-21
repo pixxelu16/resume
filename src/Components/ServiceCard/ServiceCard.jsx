@@ -90,7 +90,7 @@ const ServicesSection = () => {
   return (
     <section className="ServiceCard  text-white ">
       <div className="custom-container">
-        <p className="mb-5 font-24">Services I offer:</p>
+        <p className="mb-5 font-24 para">Services I offer:</p>
 
         {isMobile ? (
           <Slider {...sliderSettings}>

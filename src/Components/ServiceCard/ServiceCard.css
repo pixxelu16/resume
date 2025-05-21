@@ -88,12 +88,11 @@ p.last-p {
         margin-bottom: 35px !important;
     }
 
-    .ServiceCard p {
-        font-size: 24px !important;
-    }
-
+   .ServiceCard p {
+    font-size: 22px !important;
+}
     p.last-p {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     .ServiceCard .rounded {
@@ -110,6 +109,9 @@ p.last-p {
 }
 p.last-service {
     margin-bottom: 52px;
+}
+p.mb-5.font-24.para {
+    font-size: 22px !important;
 }
 }
 
