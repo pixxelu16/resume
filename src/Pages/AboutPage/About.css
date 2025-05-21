@@ -88,10 +88,10 @@
     margin-bottom: 15px;
 }
 .about-page .font-24 {
-    font-size: 18px;
+    font-size: 16px !important;
 }
 .about-page  ul {
-font-size: 16px;
+    font-size: 14px;
 }
 h3.color-purple.font-48.mb-5.text-center {
     font-size: 44px;
