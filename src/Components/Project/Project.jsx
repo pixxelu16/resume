@@ -50,7 +50,7 @@ const ProjectShowcase = () => {
                 <div className="heading-project">
                     <p className='font-family'>Some Projects I’ve Worked on</p>
                     <a href="/resume/#work-page">
-                        <button className='orange-button-1'>See All Projects +</button>
+                        <button className='orange-button-1 padding-less'>See All Projects +</button>
                     </a>
                 </div>
 
