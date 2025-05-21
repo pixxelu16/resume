@@ -118,7 +118,7 @@ h3.color-purple.font-48.mb-5.text-center {
     padding-right: 0px;
 }
 .hand-container  .font-52 {
-    font-size: 44px;
+    font-size: 40px;
 }
 .about-resume {
     padding: 40px;
@@ -129,9 +129,16 @@ h3.color-purple.font-48.mb-5.text-center {
 .about-resume .col-md-4{
    width: 100%;
 }
-
+.grey-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
-
+button.download-button {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+   }
+  }
 
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
   .grey-content p {
