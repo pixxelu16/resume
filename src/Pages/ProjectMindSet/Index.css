@@ -53,3 +53,27 @@ h3.slider-heading {
 }
 }
 
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.project-2 p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-1 p {
+    font-size: 18px;
+       font-weight: 400;
+}
+.project-1 h5 {
+    font-size: 18px;
+       font-weight: 400;
+}
+.project-brief {
+    padding: 20px 120px;
+}
+.project-2 h4 {
+    font-size: 42px;
+}
+
+}
+
+

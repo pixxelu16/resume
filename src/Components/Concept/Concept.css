@@ -16,9 +16,15 @@ section.Concept {
 }
 
 .concept-2 p {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 200;
 }
-
+.concept-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .col-md-6.concept-2 {
     padding-left: 25px;
 }
@@ -112,5 +118,11 @@ section.Concept {
   .concept-line:after {
     left: 7%;
     width: 92%;
+}
+.concept-2 p {
+    font-size: 18px;
+}
+.concept-line .font-24 {
+    font-size: 20px;
 }
 }

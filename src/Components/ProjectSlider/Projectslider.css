@@ -139,4 +139,10 @@ h3.slider-heading {
     width: 2px !important;
     top: 5px !important;
 }
+.custom-size {
+    height: 390px !important;
+    width: 385px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 }

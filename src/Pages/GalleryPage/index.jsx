@@ -18,23 +18,55 @@ import Collage10 from '../../Assets/Images/gallery-images/gallery-10.png';
 import Collage11 from '../../Assets/Images/gallery-images/gallery-11.png';
 import Collage12 from '../../Assets/Images/gallery-images/gallery-12.png';
 import Collage13 from '../../Assets/Images/gallery-images/gallery-13.png';
+// video import
+import Video1 from '../../Assets/Video/video-1.mp4';
+import Video3 from '../../Assets/Video/video-3.mp4';
+import Video4 from '../../Assets/Video/video-4.mp4';
+import Video5 from '../../Assets/Video/video-5.mp4';
+import Video6 from '../../Assets/Video/video-6.mp4';
+import Video7 from '../../Assets/Video/video-7.mp4';
+import Video8 from '../../Assets/Video/video-8.mp4';
+import Video9 from '../../Assets/Video/video-9.mp4';
+import Video10 from '../../Assets/Video/video-10.mp4';
+import Video11 from '../../Assets/Video/video-11.mkv';
+import Video12 from '../../Assets/Video/video-12.mp4';
+import Video13 from '../../Assets/Video/video-13.mp4';
+import Video14 from '../../Assets/Video/video-14.mkv';
+import Video15 from '../../Assets/Video/video-15.mp4';
+import Video16 from '../../Assets/Video/video-16.mp4';
 
-const categories = ['All', 'Sketchbooks', 'Motion'];
+const categories = ['All', 'Sketchbooks', 'Motion','Branding'];
 
 const allItems = [
-  { id: 1, category: 'Sketchbooks', img: Collage1 },
-  { id: 2, category: 'Motion', img: Collage2 },
-  { id: 3, category: 'Motion', img: Collage3 },
-  { id: 4, category: 'Sketchbooks', img: Collage4 },
-  { id: 5, category: 'Motion', img: Collage5 },
-  { id: 6, category: 'Motion', img: Collage6 },
-  { id: 7, category: 'Sketchbooks', img: Collage7 },
-  { id: 8, category: 'Sketchbooks', img: Collage8 },
-  { id: 9, category: 'Motion', img: Collage9 },
-  { id: 10, category: 'Sketchbooks', img: Collage10 },
-  { id: 11, category: 'Sketchbooks', img: Collage11 },
-  { id: 12, category: 'Sketchbooks', img: Collage12 },
-  { id: 13, category: 'Motion', img: Collage13 },
+  { id: 1, category: 'Branding', img: Collage1 },
+  { id: 2, category: 'Branding', img: Collage2 },
+  { id: 3, category: 'Branding', img: Collage3 },
+  { id: 4, category: 'Branding', img: Collage4 },
+  { id: 5, category: 'Branding', img: Collage5 },
+  { id: 6, category: 'Branding', img: Collage6 },
+  { id: 7, category: 'Branding', img: Collage7 },
+  { id: 8, category: 'Branding', img: Collage8 },
+  { id: 9, category: 'Branding', img: Collage9 },
+  { id: 10, category: 'Branding', img: Collage10 },
+  { id: 11, category: 'Branding', img: Collage11 },
+  { id: 12, category: 'Branding', img: Collage12 },
+  { id: 13, category: 'Branding', img: Collage13 },
+    { id: 14, category: 'Motion', video: Video1 },
+  { id: 15, category: 'Motion', video: Video3 },
+  { id: 16, category: 'Motion', video: Video4 },
+  { id: 17, category: 'Motion', video: Video5 },
+  { id: 18, category: 'Motion', video: Video6 },
+  { id: 19, category: 'Motion', video: Video7 },
+  { id: 20, category: 'Motion', video: Video8 },
+  { id: 21, category: 'Motion', video: Video9 },
+  { id: 22, category: 'Motion', video: Video10 },
+  { id: 23, category: 'Motion', video: Video11 },
+  { id: 24, category: 'Motion', video: Video12 },
+  { id: 25, category: 'Motion', video: Video13 },
+  { id: 26, category: 'Motion', video: Video14 },
+  { id: 27, category: 'Motion', video: Video15 },
+  { id: 28, category: 'Motion', video: Video16 },
+
 ];
 
 const WorkGallery = () => {
@@ -66,12 +98,22 @@ const WorkGallery = () => {
         </div>
 
         <div className="gallery-grid">
-          {filteredItems.map(item => (
-            <div key={item.id} className="gallery-item">
-              <img src={item.img} alt={item.category} />
-            </div>
-          ))}
-        </div>
+  {filteredItems.map(item => (
+    <div key={item.id} className="gallery-item">
+      {item.img ? (
+        <img src={item.img} alt={item.category} />
+      ) : item.video ? (
+        <video
+          src={item.video}
+          controls
+          preload="metadata"
+          width="100%"
+          style={{ borderRadius: '8px' }}
+        />
+      ) : null}
+    </div>
+  ))}
+</div>
       </section>
       <Footer />
     </>

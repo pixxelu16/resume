@@ -97,3 +97,24 @@ footer {
         text-align: center;
     }
 }
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.footer-link .experimental-link {
+    padding: 0px;
+}
+footer .experimental-img {
+    width: 78% !important;
+}
+footer .font-74 {
+    font-size: 58px;
+}
+.footer-link a {
+    font-size: 14px;
+}
+footer .font-36 {
+    font-size: 30px;
+}
+.footet-social a {
+    font-size: 16px;
+}
+}
