@@ -2,8 +2,10 @@ import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import ProjectSlider1 from '../../Assets/Images/project-slider-1.png';
-import ProjectSlider2 from '../../Assets/Images/project-slider-2.png';
+import ProjectSlider1 from '../../Assets/Images/project1.png';
+import ProjectSlider2 from '../../Assets/Images/project2.png';
+import ProjectSlider3 from '../../Assets/Images/project3.png';
+import ProjectSlider4 from '../../Assets/Images/project4.png';
 import RightArrowImage from '../../Assets/Images/RightArrowImage.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
@@ -26,19 +28,19 @@ const projects = [
         title: "Mindshare",
         type: "Branding",
         description: "Designing an identity that reflects collaboration, connection, and possibility.",
-        image: ProjectSlider1,
+        image: ProjectSlider3,
     },
     {
         title: "Trekkit",
         type: "UI/UX",
         description: "Rebranding Bal Raksha Bharat to reposition it as an optimistic, future-forward child rights NGO.",
-        image: ProjectSlider2,
+        image: ProjectSlider4,
     },
     {
         title: "Mindshare",
         type: "Branding",
         description: "Designing an identity that reflects collaboration, connection, and possibility.",
-        image: ProjectSlider1,
+        image: ProjectSlider3,
     },
 ];
 
@@ -78,7 +80,7 @@ const ProjectSlider = () => {
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-cover custom-size"
                                     width="100%"
                                 />
                             </div>

@@ -39,6 +39,12 @@ h3.slider-heading {
     border: none;
 }
 
+.custom-size{
+    height: 500px !important;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
 /* Responsive Styles */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -113,6 +119,9 @@ h3.slider-heading {
 }
 h3.slider-heading {
     font-size: 16px;
+}
+.custom-size {
+    height: 350px !important;
 }
 }
 @media only screen and (min-width: 1291px) and (max-width:1550px) {

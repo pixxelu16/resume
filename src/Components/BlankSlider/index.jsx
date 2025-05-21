@@ -68,7 +68,8 @@ const BlankSlider = () => {
 
         <div className='d-flex justify-content-center align-items-center mb-60 flex-direction'>
           <h4 className='font-52'>See my work in the</h4>
-          <img src={GalleryImage} alt="" className='gallery-img' />
+          <a href="/resume/#gallery-page" className='text-center'> <img src={GalleryImage} alt="" className='gallery-img' /></a>
+         
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ const IntroSection = () => {
                         <img src={BannerFace} alt="Hero Illustration" className="img-fluid" />
                         <div className="hero-buttons d-flex gap-4 mt-4 mobile-show">
                              <a href={YashResume} download> <button className="grey-button font-16">Download Resume</button></a>
-                            <a href="/resume/#about-page"><button className="orange-button font-16">See About Me</button></a>
+                            <a href="/resume/#about-page"><button className="orange-button font-16"> About Me</button></a>
                         </div>
                     </div>
                 </div>
