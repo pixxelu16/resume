@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.0831236e.css",
+    "main.css": "/resume/static/css/main.3695a479.css",
     "main.js": "/resume/static/js/main.fd871b7e.js",
     "static/js/453.ace21015.chunk.js": "/resume/static/js/453.ace21015.chunk.js",
     "static/media/bal-raksha-4.png": "/resume/static/media/bal-raksha-4.e6db971b7e19474776d2.png",
@@ -100,12 +100,12 @@
     "static/media/slick.woff": "/resume/static/media/slick.295183786cd8a1389865.woff",
     "static/media/responsive_icon.svg": "/resume/static/media/responsive_icon.2289415165955fe820f8287ec14e8b27.svg",
     "index.html": "/resume/index.html",
-    "main.0831236e.css.map": "/resume/static/css/main.0831236e.css.map",
+    "main.3695a479.css.map": "/resume/static/css/main.3695a479.css.map",
     "main.fd871b7e.js.map": "/resume/static/js/main.fd871b7e.js.map",
     "453.ace21015.chunk.js.map": "/resume/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0831236e.css",
+    "static/css/main.3695a479.css",
     "static/js/main.fd871b7e.js"
   ]
 }
