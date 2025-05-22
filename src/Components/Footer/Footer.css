@@ -119,3 +119,12 @@ footer .experimental-img {
     width: 80% !important;
 }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    footer  .experimental-link {
+    font-size: 13px;
+    padding: 20px 0px;
+}
+}
+

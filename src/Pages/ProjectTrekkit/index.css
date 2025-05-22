@@ -208,7 +208,26 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .journey-features {
+    padding: 60px 40px;
+}
+.journey-features .font-24 {
+    font-size: 20px;
+}
+.trekkit-page .concept-2 p {
+    font-size: 16px;
+}
+.trekkit-page  .font-48 {
+    font-size: 30px;
+}
+.journey-features .col-md-3 {
+    width: 50%;
+}
+.journey-features .font-20 {
+    font-size: 16px;
+}
+}
 
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {}
