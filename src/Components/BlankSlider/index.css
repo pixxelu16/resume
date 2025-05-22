@@ -145,8 +145,9 @@ img.gallery-img {
 }
 .blank-slider .gallery-img {
     width: 65%;
+    padding-bottom: 10px;
 }
-.text-center {
+.image-left{
     text-align: left !important;
 }
 }

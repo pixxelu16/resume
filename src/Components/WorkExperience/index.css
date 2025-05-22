@@ -141,5 +141,7 @@
 .work-custom ul::before {
     left: -90px;
 }
-
+.color-purple.font-48 {
+    font-size: 42px !important;
+}
 }
