@@ -145,4 +145,7 @@ h3.slider-heading {
     object-fit: cover;
     border-radius: 12px;
 }
+.position-slider h4 {
+    font-size: 40px;
+}
 }

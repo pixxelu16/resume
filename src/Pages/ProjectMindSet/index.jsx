@@ -53,15 +53,19 @@ const conceptParagraphs = [
   return (
     <>
       <Header />
-      <Banner
-        subtitle="MINDSHARE | LOGO AND BRANDING"
-        title={` Designing an Identity that Reflects
-            Collaboration, Connection, and Possibility.` }
-        imageSrc={mindshareImage}
-        imageAlt="Mindshare visual"
-        textAnimation="fade-up"
-        imageAnimation="fade-down"
-      />
+     <Banner
+  subtitle={
+    <>
+      <span style={{ color: '#BEB8EB'  }}>MINDSHARE</span> | LOGO AND BRANDING
+    </>
+  }
+  title={` Designing an Identity that Reflects
+            Collaboration, Connection, and Possibility.`}
+  imageSrc={mindshareImage}
+  imageAlt="Mindshare visual"
+  textAnimation="fade-up"
+  imageAnimation="fade-up"
+/>
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
       <Image
         src={InfiniteImage}
@@ -75,8 +79,8 @@ const conceptParagraphs = [
         image={ConceptImage}
         imageAlt="Ripples creating infinity"
         paragraphs={conceptParagraphs}
-        imageAnimation="fade-right"
-        textAnimation="fade-left"
+        imageAnimation="fade-up"
+        textAnimation="fade-up"
         imageDelay={0}
         textDelay={200}
         aosDuration={1200}

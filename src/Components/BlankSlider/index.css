@@ -144,6 +144,9 @@ img.gallery-img {
     font-size: 38px;
 }
 .blank-slider .gallery-img {
-    width: 70%;
+    width: 65%;
+}
+.text-center {
+    text-align: left !important;
 }
 }

@@ -10,7 +10,7 @@ const Banner = ({
   imageSrc,
   imageAlt = 'Banner image',
   textAnimation = 'fade-up',
-  imageAnimation = 'fade-down',
+  imageAnimation = 'fade-up',
   reverse = false, // optional: reverse layout
 }) => {
   useEffect(() => {

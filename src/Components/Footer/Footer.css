@@ -102,9 +102,7 @@ footer {
 .footer-link .experimental-link {
     padding: 0px;
 }
-footer .experimental-img {
-    width: 78% !important;
-}
+
 footer .font-74 {
     font-size: 58px;
 }
@@ -116,5 +114,8 @@ footer .font-36 {
 }
 .footet-social a {
     font-size: 16px;
+}
+footer .experimental-img {
+    width: 80% !important;
 }
 }

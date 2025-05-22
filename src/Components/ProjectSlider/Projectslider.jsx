@@ -34,7 +34,7 @@ const projects = [
         title: "Trekkit",
         type: "UI/UX",
         description: "Rebranding Bal Raksha Bharat to reposition it as an optimistic, future-forward child rights NGO.",
-        image: ProjectSlider4,
+        image: ProjectSlider2,
     },
     {
         title: "Mindshare",

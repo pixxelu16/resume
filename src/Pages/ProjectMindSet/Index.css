@@ -1,7 +1,6 @@
- h1.title {
-    width: 60%;
+h1.title {
+    width: 65%;
 }
-
 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -73,7 +72,18 @@ h3.slider-heading {
 .project-2 h4 {
     font-size: 42px;
 }
-
+h1.title {
+    width: 54%;
+}
+h1.title {
+    width: 54%;
+}
+.title {
+    font-size: 38px;
+}
+.subtitle {
+    font-size: 20px;
 }
 
 
+}
