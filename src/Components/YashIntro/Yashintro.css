@@ -89,11 +89,13 @@ img.banner-face {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    img.banner-face {
-    width: 65% !important;
-    margin-top: 200px;
+img.banner-face {
+    width: 47% !important;
+    margin-top: 0px;
 }
+
 .yash-intro {
-    background-size: 50%;
+    background-size: 35%;
 }
+
 }

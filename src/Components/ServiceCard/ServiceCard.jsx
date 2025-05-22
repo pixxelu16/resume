@@ -30,14 +30,14 @@ const services = [
   {
     number: '03.',
     title: <>Motion <br /> Graphics</>,
-        desc: 'Research, Brand Audit, Logo Design, and Brand Experience Development',
+    desc: 'Research, Brand Audit, Logo Design, and Brand Experience Development',
     icon: Icon3,
     bg: '#FFBC01',
   },
   {
     number: '04.',
     title: 'Illustrations',
-        desc: 'Research, Brand Audit, Logo Design, and Brand Experience Development',
+    desc: 'Research, Brand Audit, Logo Design, and Brand Experience Development',
     icon: Icon4,
     bg: '#FFFAF7',
     extraClass: 'last-service',
@@ -45,21 +45,31 @@ const services = [
 ];
 
 const ServicesSection = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isSliderView, setIsSliderView] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    handleResize(); // Set on mount
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      setIsSliderView(window.innerWidth < 992); // use slider for < 992px
+    };
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  const getSlidesToShow = () => {
+    if (windowWidth < 768) return 1;     // mobile
+    if (windowWidth < 992) return 2;     // tablet
+    return 4;
+  };
 
   const sliderSettings = {
     dots: true,
     infinite: true,
     speed: 600,
-    slidesToShow: 1,
+    slidesToShow: getSlidesToShow(),
     slidesToScroll: 1,
     arrows: false,
   };
@@ -88,11 +98,10 @@ const ServicesSection = () => {
   );
 
   return (
-    <section className="ServiceCard  text-white ">
+    <section className="ServiceCard text-white">
       <div className="custom-container">
         <p className="mb-5 font-24 para">Services I offer:</p>
-
-        {isMobile ? (
+        {isSliderView ? (
           <Slider {...sliderSettings}>
             {services.map(renderCard)}
           </Slider>

@@ -24,25 +24,6 @@
   overflow: hidden;
 }
 
-/* Gradient shadows */
-.left-shadow::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-}
-
-.right-shadow::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-}
-
 /* Custom arrow styles */
 .custom-arrow {
   width: 40px;
@@ -122,13 +103,23 @@
     font-size: 42px !important;
 }
 img.gallery-img {
-    width: 30%;
+    width: 70%;
 }
 .project-slider .subtitle:before {
     top: 0px;
 }
 .blank-slider h3 {
     padding: 20px;
+}
+.blank-card {
+    height: 400px;
+}
+.blank-card img {
+  height: 400px !important;
+}
+a.text-center.image-left {
+    text-align: left !important;
+    padding-left: 10px;
 }
 }
 

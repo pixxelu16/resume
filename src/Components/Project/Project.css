@@ -188,7 +188,9 @@ a.title-link {
     p.mt-2.color-grey:before {
         left: -30px;
     }
-
+.project-showcase .display-flex p {
+    width: 94%;
+}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {

@@ -34,7 +34,7 @@ const YashIntro = () => {
                 <img
                     src={BannerIcon}
                     alt="Scroll down"
-                    data-aos="zoom-in"
+                    data-aos="fade-up"
                     data-aos-delay="400"
                     style={{ cursor: 'pointer', animation: 'bounce 2s infinite' }}
                     onClick={() => {
