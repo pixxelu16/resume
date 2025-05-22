@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.582823fc.css",
-    "main.js": "/resume/static/js/main.7fbf7b4f.js",
+    "main.css": "/resume/static/css/main.66c368d0.css",
+    "main.js": "/resume/static/js/main.96266614.js",
     "static/js/453.ace21015.chunk.js": "/resume/static/js/453.ace21015.chunk.js",
     "static/media/video-1.mp4": "/resume/static/media/video-1.ed34f22297a83b949095.mp4",
     "static/media/video-3.mp4": "/resume/static/media/video-3.b80ce9f6d8a9d2d60f9d.mp4",
@@ -33,8 +33,6 @@
     "static/media/title-folio-6.png": "/resume/static/media/title-folio-6.9619cfc1fd6c219ce3ee.png",
     "static/media/title-folio-15.png": "/resume/static/media/title-folio-15.e593727411764ff7ec29.png",
     "static/media/Raya-img-6.png": "/resume/static/media/Raya-img-6.34261602165f8b76a9cf.png",
-    "static/media/gallery-11.png": "/resume/static/media/gallery-11.a7aa5f490a16288b0e25.png",
-    "static/media/gallery-5.png": "/resume/static/media/gallery-5.140b8e6ee8629f85bc97.png",
     "static/media/gallery-4.png": "/resume/static/media/gallery-4.a08d88997c4861238ab7.png",
     "static/media/trekkit-img-1.png": "/resume/static/media/trekkit-img-1.3275f8363e6b0b0f8238.png",
     "static/media/BalRakshaImg7.png": "/resume/static/media/BalRakshaImg7.286d3fde693a1f3bd00d.png",
@@ -45,9 +43,7 @@
     "static/media/mindshare-banner.png": "/resume/static/media/mindshare-banner.f94273d069afd4006e23.png",
     "static/media/Bal-raksha-banner.png": "/resume/static/media/Bal-raksha-banner.78cb55ced621392cfb5a.png",
     "static/media/Raya-img-10.png": "/resume/static/media/Raya-img-10.3908a2057d55fb8aea3d.png",
-    "static/media/gallery-10.png": "/resume/static/media/gallery-10.31d841fd9c0863cd9a6a.png",
     "static/media/Raya-img-12.png": "/resume/static/media/Raya-img-12.e52adcee9f11bfe3358b.png",
-    "static/media/gallery-13.png": "/resume/static/media/gallery-13.aad3c5fee5538f968bb9.png",
     "static/media/gallery-2.png": "/resume/static/media/gallery-2.d0bb347f87b7cfbb5923.png",
     "static/media/video-12.mp4": "/resume/static/media/video-12.d8a56c7db511bb3904e2.mp4",
     "static/media/trek-3.png": "/resume/static/media/trek-3.ccd515fa961dc0b48008.png",
@@ -74,7 +70,6 @@
     "static/media/infinite-img.png": "/resume/static/media/infinite-img.342f7a8e0aa761620441.png",
     "static/media/bal-raksha-6.png": "/resume/static/media/bal-raksha-6.7e0507a66fb8649f4b25.png",
     "static/media/signpost.png": "/resume/static/media/signpost.e37fe1609b4e312be5e9.png",
-    "static/media/gallery-12.png": "/resume/static/media/gallery-12.e552b7059654635d7ddb.png",
     "static/media/title-folio-12.png": "/resume/static/media/title-folio-12.54f58a0206d5a33f2abb.png",
     "static/media/shoe-img-1.png": "/resume/static/media/shoe-img-1.37fa93ba209cb41c31a0.png",
     "static/media/project4.png": "/resume/static/media/project4.f869d28dc37e595f8364.png",
@@ -113,12 +108,12 @@
     "static/media/slick.woff": "/resume/static/media/slick.295183786cd8a1389865.woff",
     "static/media/responsive_icon.svg": "/resume/static/media/responsive_icon.2289415165955fe820f8287ec14e8b27.svg",
     "index.html": "/resume/index.html",
-    "main.582823fc.css.map": "/resume/static/css/main.582823fc.css.map",
-    "main.7fbf7b4f.js.map": "/resume/static/js/main.7fbf7b4f.js.map",
+    "main.66c368d0.css.map": "/resume/static/css/main.66c368d0.css.map",
+    "main.96266614.js.map": "/resume/static/js/main.96266614.js.map",
     "453.ace21015.chunk.js.map": "/resume/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.582823fc.css",
-    "static/js/main.7fbf7b4f.js"
+    "static/css/main.66c368d0.css",
+    "static/js/main.96266614.js"
   ]
 }
