@@ -106,7 +106,22 @@ button.filter-btn {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section.work-gallery {
+    padding: 80px 20px;
+}
+h1.gallery-heading >br {
+    display: none;
+}
+.gallery-heading {
+    font-size: 44px;
+}
+button.filter-btn {
+    padding: 5px 15px;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+}
 
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {

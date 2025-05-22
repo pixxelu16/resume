@@ -6,6 +6,7 @@ import './Yashintro.css';
 import BannerFace from '../../Assets/Images/Banner-Face.png';
 import BannerIcon from '../../Assets/Images/banner-icon.png';
 
+
 const YashIntro = () => {
     useEffect(() => {
         AOS.init({
