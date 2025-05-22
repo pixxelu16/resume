@@ -34,13 +34,13 @@ const ProjectMindSet = () => {
   }, []);
 
   const leftContent = (
-    <div data-aos="fade-right">
+    <div data-aos="fade-up">
       <div className="mb-4">
         <h5>Nature</h5>
-        <p>Pitched to Client<br />
-          (Internship @Clay Design Strategy)</p>
+        <p className='role-up'>Pitched to Client</p>
+          <p><em>(Internship @Clay Design Strategy)</em></p>
       </div>
-      <div>
+      <div className='role-p'>
         <h5>Roles:</h5>
         <p>Research </p>
         <p>Logo Design</p>
@@ -55,7 +55,7 @@ const ProjectMindSet = () => {
   ];
 
   const rightContent = (
-    <div data-aos="fade-lef">
+    <div data-aos="fade-up">
       <h4>Brief:</h4>
       <p>
         This project was one of the few routes presented to Bal Raksha Bharat for their rebranding, done in 2022 by Clay Design Strategy
@@ -73,7 +73,11 @@ const ProjectMindSet = () => {
     <div className="bal-raksha-page">
       <Header />
       <Banner
-        subtitle="BAL RAKSHA BHARAT | LOGO AND BRANDING"
+        subtitle={
+          <>
+            <span style={{ color: '#BEB8EB' }}>BAL RAKSHA BHARAT</span> | LOGO AND BRANDING
+          </>
+        }
         title={`An Identity that Embodies Holistic <br/>Development and Child Rights Protection.`}
         imageSrc={BalRakshaBaner}
         imageAlt="Trekkit visual"
@@ -93,10 +97,10 @@ const ProjectMindSet = () => {
         <div className="custom-container">
           <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Concept</p>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12">
               <img src={FanPic} alt="" className='fan-pic' />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12">
               <div className='d-flex fan-p font-24 weight-300'>
                 <p>The pinwheel, a universal symbol of childhood, embodies the joy, innocence, and limitless potential of
                   every child. Its playful nature reflects the optimism and positivity that Bal Raksha Bharat stands for while also representing change. </p>
@@ -142,7 +146,7 @@ const ProjectMindSet = () => {
               <img src={BalRakshaImg4} alt="" />
             </div>
             <div className="col-md-8 mb-4">
-              <img src={BalRakshaImg5} alt="" />
+              <img src={BalRakshaImg5} alt="" className='h-100' />
             </div>
             <div className="col-md-4 mb-4">
               <img src={BalRakshaImg6} alt="" />
@@ -150,22 +154,22 @@ const ProjectMindSet = () => {
           </div>
         </div>
       </div>
-      <div className='balraksha-concept'>
+      <div className='balraksha-concept installation'>
         <div className="custom-container">
           <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Installations</p>
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-8">
               <img src={BalRakshaImg7} alt="" className='fan-pic' />
             </div>
-            <div className="col-md-5">
-              <div className=' fan-p font-24 weight-300  small-font'>
+            <div className="col-md-4">
+              <div className=' fan-p font-20 weight-300  small-font bal-raksha-content'>
                 <p>Bal Raksha Bharat’s Impact Installations are permanent, meaningful artworks placed in corporate or public spaces-serving as both symbols of support and ongoing reminders of the promise to protect every child.</p>
                 <p>Created in collaboration with children- using handcrafted elements like paper cranes representing the number of lives impacted- these installations are designed to be displayed in places like reception areas, campuses, or common spaces. They act as powerful landmarks that celebrate partnership and purpose.</p>
                 <p>More than just art, they offer partner organizations a way to showcase their commitment to child rights in a form that’s visible, emotional, and enduring.</p>
               </div>
             </div>
             <div className="col-md-12">
-              <img src={BalRakshaImg8} alt="" />
+              <img src={BalRakshaImg8} alt="" className='BalRakshaImg8' />
             </div>
           </div>
         </div>

@@ -35,7 +35,7 @@ import Video14 from '../../Assets/Video/video-14.mkv';
 import Video15 from '../../Assets/Video/video-15.mp4';
 import Video16 from '../../Assets/Video/video-16.mp4';
 
-const categories = ['All', 'Sketchbooks', 'Motion','Branding'];
+const categories = ['All', 'Branding','Motion','Sketchbooks'];
 
 const allItems = [
   { id: 1, category: 'Branding', img: Collage1 },

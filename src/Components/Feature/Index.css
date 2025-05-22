@@ -25,8 +25,15 @@
 
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
 
+.journey-features .font-24{
+    font-size: 20px;
+}
 .feature-content {
-    padding: 30px 26px !important;
-    font-size: 18px;
+    padding: 30px 41px !important;
+    font-size: 16px;
+    font-weight: 300;
+}
+.mobile-slider .font-32 {
+    font-size: 26px;
 }
 }

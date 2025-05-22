@@ -39,17 +39,17 @@ const Collage = () => {
 
       <div className="row mt-4 gap-20" data-aos="fade-up">
         <div className="col-md-4">
-          <div className="Collage5" data-aos="zoom-in" data-aos-delay="100">
+          <div className="Collage5" data-aos="fade-up" data-aos-delay="100">
             <img src={Collage5} alt="" />
           </div>
         </div>
         <div className="col-md-4">
-          <div className="Collage6" data-aos="zoom-in" data-aos-delay="200">
+          <div className="Collage6" data-aos="fade-up" data-aos-delay="200">
             <img src={Collage6} alt="" />
           </div>
         </div>
         <div className="col-md-4">
-          <div className="Collage7" data-aos="zoom-in" data-aos-delay="300">
+          <div className="Collage7" data-aos="fade-up" data-aos-delay="300">
             <img src={Collage7} alt="" />
           </div>
         </div>

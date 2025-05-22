@@ -29,7 +29,7 @@ const Concept = ({
           <div className="col-md-6 concept-1" data-aos={imageAnimation} data-aos-delay={imageDelay}>
             <img src={image} alt={imageAlt} />
           </div>
-          <div className="col-md-6 concept-2" data-aos={textAnimation} data-aos-delay={textDelay}>
+          <div className="col-md-6 concept-2 concept-2-p" data-aos={textAnimation} data-aos-delay={textDelay}>
             {paragraphs.map((para, index) => (
               <p key={index} dangerouslySetInnerHTML={{ __html: para }}></p>
             ))}

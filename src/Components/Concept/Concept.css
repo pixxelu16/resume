@@ -115,9 +115,9 @@ section.Concept {
 }
 }
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
-  .concept-line:after {
-    left: 7%;
-    width: 92%;
+.concept-line:after {
+    left: 9%;
+    width: 89%;
 }
 .concept-2 p {
     font-size: 16px;

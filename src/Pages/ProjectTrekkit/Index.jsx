@@ -32,11 +32,11 @@ const ProjectMindSet = () => {
 
   const leftContent = (
     <div data-aos="fade-up">
-      <div className="mb-4">
+      <div className="mb-4 role-p">
         <h5>Nature of Project</h5>
         <p>Academic Project</p>
       </div>
-      <div>
+      <div className='role-p'>
         <h5>Roles:</h5>
         <p>Research</p>
         <p>Comp-Study</p>
@@ -76,7 +76,11 @@ const ProjectMindSet = () => {
     <div className="trekkit-page">
       <Header />
       <Banner
-        subtitle="TREKKIT | APPLICATION DESIGN"
+        subtitle={
+          <>
+            <span style={{ color: '#BEB8EB' }}>TREKKIT </span> | APPLICATION DESIGN
+          </>
+        }
         title={`Making the process of planning<br /> treks more intuitive.`}
         imageSrc={TrekkitBanner}
         imageAlt="Trekkit visual"
@@ -160,19 +164,19 @@ const ProjectMindSet = () => {
           <div className="row">
             <div className="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
               <img src={Trek1} alt="Meet trekkers" className="shoe-3" />
-              <p className="font-24 color-black text-center">
+              <p className="font-24 color-black text-center pt-4">
                 Meet other trekkers and <br />outdoor enthusiasts
               </p>
             </div>
             <div className="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="300">
               <img src={Trek2} alt="Book leaders" className="shoe-3" />
-              <p className="font-24 color-black text-center">
+              <p className="font-24 color-black text-center pt-4">
                 Connect and book <br />camp leaders in-app
               </p>
             </div>
             <div className="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="500">
               <img src={Trek3} alt="Join community" className="shoe-3" />
-              <p className="font-24 color-black text-center">
+              <p className="font-24 color-black text-center pt-4">
                 Be part of a community <br />with a love for the outdoors
               </p>
             </div>

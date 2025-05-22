@@ -17,7 +17,7 @@ const IntroSection = () => {
             <div className="color-white">
                 <div className="row align-items-center">
                     {/* Text Column */}
-                    <div className="col-md-7" data-aos="fade-down">
+                    <div className="col-md-7" data-aos="fade-up">
                         <h3 className="hero-heading mb-5">
                             Hello, I am Yash 🤓. I am a Visual Designer based in New Delhi, India. Graphic design is my passion 🙏. I do creative branding with punchy visuals 💥 which are sure to capitivate people 👀
                         </h3>
