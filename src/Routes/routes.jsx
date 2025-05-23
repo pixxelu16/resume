@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from '../Components/ScrollTop'; // Adjust the path as needed
 import ProjectMindSet from '../Pages/ProjectMindSet';
 import HomePage from '../Pages/HomePage/home';
 import AboutPage from '../Pages/AboutPage/About';
@@ -11,11 +12,10 @@ import TitleFolio from '../Pages/TitleFolio';
 import BalRaksha from '../Pages/BalRaksha/Index';
 import NotFoundPage from "../Pages/NotFoundPage";
 
-
-
 export default function LayoutRoutes() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/project-mindset" element={<ProjectMindSet />} />
