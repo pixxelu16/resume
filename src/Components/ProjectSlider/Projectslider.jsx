@@ -18,26 +18,29 @@ const projects = [
     type: "Branding",
     description: "Rebranding Bal Raksha Bharat to reposition it as an optimistic, future-forward child rights NGO.",
     image: ProjectSlider1,
+    link: "/resume/#bal-raksha"
   },
   {
     title: "Trekkit",
     type: "UI/UX",
     description: "Rebranding Bal Raksha Bharat to reposition it as an optimistic, future-forward child rights NGO.",
     image: ProjectSlider2,
+    link: "/resume/#trekkit-page"
   },
   {
     title: "Mindshare",
     type: "Branding",
     description: "Designing an identity that reflects collaboration, connection, and possibility.",
     image: ProjectSlider3,
+    link: "/resume/#project-mindset"
   },
   {
     title: "The School of Raya",
     type: "Branding",
     description: "Branding pitch for an international IB school in Bengaluru, reflecting themes of nature and flow.",
     image: ProjectSlider4,
+    link: "/resume/#raya-page"
   },
- 
 ];
 
 const ProjectSlider = () => {
@@ -48,7 +51,6 @@ const ProjectSlider = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
-
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -89,25 +91,26 @@ const ProjectSlider = () => {
         >
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-[#1a1a1a] p-4 rounded-xl text-white h-full custom-padding">
-                <div className="rounded-lg overflow-hidden mb-4 h-60">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover custom-size"
-                  />
+              <a href={project.link} className="text-decoration-none">
+                <div className="bg-[#1a1a1a] p-4 rounded-xl text-white h-full custom-padding">
+                  <div className="rounded-lg overflow-hidden mb-4 h-60">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover custom-size"
+                    />
+                  </div>
+                  <h3 className="slider-heading">
+                    <span className="subtitle"></span> {project.title}{' '}
+                    <span className="grey-text">({project.type})</span>
+                  </h3>
+                  <p className="color-grey">{project.description}</p>
                 </div>
-                <h3 className="slider-heading">
-                  <span className="subtitle"></span> {project.title}{' '}
-                  <span className="grey-text">({project.type})</span>
-                </h3>
-                <p className="color-grey">{project.description}</p>
-              </div>
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        {/* Right arrow visible only on md and larger devices */}
         <button
           onClick={() => swiperRef.current?.slideNext()}
           className="custom-arrow-button d-none d-md-block"
