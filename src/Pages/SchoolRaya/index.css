@@ -1,6 +1,9 @@
 .padding-bottom-60{
     padding-bottom: 70px;
 }
+ .fan-p strong {
+    font-weight: bold;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
       .school-raya-page img{
         width: 100%;

@@ -67,7 +67,11 @@ const ProjectRaya = () => {
     <div className="school-raya-page">
       <Header />
       <Banner
-        subtitle="THE SCHOOL OF RAYA | LOGO AND BRANDING"
+       subtitle={
+          <>
+            <span style={{ color: '#BEB8EB' }}>THE SCHOOL OF RAYA</span> | LOGO AND BRANDING
+          </>
+        }
         title={`Creating an Identity that Embodies Flow, Growth, and Holistic Learning.`}
         imageSrc={RayaBanner}
         imageAlt="Trekkit visual"

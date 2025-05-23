@@ -82,7 +82,7 @@ const ProjectMindSet = () => {
         imageSrc={BalRakshaBaner}
         imageAlt="Trekkit visual"
         textAnimation="fade-up"
-        imageAnimation="fade-down"
+        imageAnimation="fade-up"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
 
@@ -95,7 +95,7 @@ const ProjectMindSet = () => {
       />
       <div className='balraksha-concept'>
         <div className="custom-container">
-          <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Concept</p>
+          <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-up">Concept</p>
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <img src={FanPic} alt="" className='fan-pic' />
@@ -133,16 +133,16 @@ const ProjectMindSet = () => {
 
         <div className="custom-container">
           <div className="row">
-            <div className="col-md-12 mb-4">
+            <div className="col-md-12 margin-bottom-80">
               <img src={BalRakshaImg1} alt="" />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 margin-bottom-80">
               <img src={BalRakshaImg2} alt="" />
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 margin-bottom-80">
               <img src={BalRakshaImg3} alt="" />
             </div>
-            <div className="col-md-12 mb-4">
+            <div className="col-md-12 margin-bottom-80">
               <img src={BalRakshaImg4} alt="" />
             </div>
             <div className="col-md-8 mb-4">
@@ -156,7 +156,7 @@ const ProjectMindSet = () => {
       </div>
       <div className='balraksha-concept installation'>
         <div className="custom-container">
-          <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Installations</p>
+          <p class="font-24 concept-line-1 aos-init aos-animate" data-aos="fade-up">Installations</p>
           <div className="row">
             <div className="col-md-8">
               <img src={BalRakshaImg7} alt="" className='fan-pic' />
