@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="mailto:example@gmail.com" target="_blank" rel="noopener noreferrer">GMail</a>
-                <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer">Behance</a>
+                <a href="https://www.behance.net/yashvardhan2" target="_blank" rel="noopener noreferrer">Behance</a>
             </div>
         </footer>
     );

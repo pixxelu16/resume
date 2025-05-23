@@ -85,7 +85,7 @@ const ProjectMindSet = () => {
         imageSrc={TrekkitBanner}
         imageAlt="Trekkit visual"
         textAnimation="fade-up"
-        imageAnimation="fade-down"
+        imageAnimation="fade-up"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
 
@@ -112,15 +112,15 @@ const ProjectMindSet = () => {
         aosDuration={1200}
       />
 
-      <div data-aos="fade-up">
+      <div>
         <Feature />
       </div>
 
-      <div data-aos="fade-up" data-aos-delay="100">
+      <div>
         <MobileSlider />
       </div>
 
-      <div data-aos="fade-up" data-aos-delay="200">
+      <div>
         <MobileShowcase />
       </div>
 
@@ -129,7 +129,7 @@ const ProjectMindSet = () => {
           <div className="row">
             <div
               className="col-md-6 text-center shoe-class-1"
-              data-aos="zoom-in"
+              data-aos="fade-up"
             >
               <p className="shoe-para">
                 Connect with camp mates <br />
@@ -143,7 +143,7 @@ const ProjectMindSet = () => {
             </div>
             <div
               className="col-md-6 text-center shoe-class-2"
-              data-aos="zoom-in"
+              data-aos="fade-up"
             >
               <img
                 src={Showimage2}
@@ -162,19 +162,19 @@ const ProjectMindSet = () => {
       <div className="trekkit-section" data-aos="fade-up">
         <div className="custom-container">
           <div className="row">
-            <div className="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
+            <div className="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
               <img src={Trek1} alt="Meet trekkers" className="shoe-3" />
               <p className="font-24 color-black text-center pt-4">
                 Meet other trekkers and <br />outdoor enthusiasts
               </p>
             </div>
-            <div className="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="300">
+            <div className="col-md-4 text-center" data-aos="fade-up" data-aos-delay="300">
               <img src={Trek2} alt="Book leaders" className="shoe-3" />
               <p className="font-24 color-black text-center pt-4">
                 Connect and book <br />camp leaders in-app
               </p>
             </div>
-            <div className="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="500">
+            <div className="col-md-4 text-center" data-aos="fade-up" data-aos-delay="500">
               <img src={Trek3} alt="Join community" className="shoe-3" />
               <p className="font-24 color-black text-center pt-4">
                 Be part of a community <br />with a love for the outdoors

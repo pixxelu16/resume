@@ -15,15 +15,16 @@ const Header = () => {
     <header className="header">
       <div className="logo-container">
         <a href="/resume">
-        <img src={logo} alt="Logo" className="logo" />
+          <img src={logo} alt="Logo" className="logo" />
         </a>
       </div>
-      
+
       <button className="menu-toggle" onClick={toggleMenu}>
-    <img src={ResposiveIcon} alt="" />
+        <img src={ResposiveIcon} alt="" />
       </button>
 
       <nav className={`nav-links ${isMenuOpen ? "show" : ""}`}>
+        <a href="/resume" className="only-mobile">HOME</a>
         <a href="/resume/#about-page">ABOUT</a>
         <a href="/resume/#work-page">WORK</a>
         <a href="/resume/#gallery-page">GALLERY</a>

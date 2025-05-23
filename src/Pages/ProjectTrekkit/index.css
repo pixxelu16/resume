@@ -227,6 +227,68 @@
 .journey-features .font-20 {
     font-size: 16px;
 }
+p.font-24.color-black{
+    font-size: 16px;
+}
+.trekkit-section {
+    background-color: #C2D0B5;
+    padding: 40px 20px;
+}
+.shoe-2 {
+    width: 90%;
+}
+.shoe-1 {
+    width: 90%;
+}
+.shoe-class {
+    padding: 40px;
+}
+.shoe-para {
+    position: static;
+}
+.shoe-para-2 {
+    position: static;
+    text-align: justify;
+    padding-left: 100px;
+}
+.mobile-showcase .description {
+    font-size: 16px;
+}
+.mobile-showcase h2 {
+    font-size: 32px;
+}
+.mobile-padding {
+    padding: 0px 30px;
+}
+.mobile-showcase .font-24 {
+    font-size: 16px;
+}
+.mobile-slider .font-20 {
+    font-size: 14px;
+}
+.absolute-3 {
+    right: 14%;
+    bottom: -2%;
+}
+.absolute-1 {
+    left: 29%;
+}
+.font-32 {
+    font-size: 26px;
+}
+.margin-left-30 {
+    margin-left: 40px;
+}
+.mobile-slider {
+    background-position: 43% 16%;
+    background-size: 20%;
+}
+.trekkit-page {
+    overflow: hidden;
+}
+.feature-content {
+    padding: 20px  4px!important;
+}
 }
 
 
@@ -273,5 +335,10 @@
 .trek-mobile {
     padding: 60px 100px;
     width: 100%;
+}
+.absolute-1 {
+    left: 35%;
+    margin-top: 30px;
+    text-align: left;
 }
 }

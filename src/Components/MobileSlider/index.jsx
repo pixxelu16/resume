@@ -34,7 +34,7 @@ const MobileSlider = () => {
 
           <div
             className="col-md-6 position-relative mobile-slider-2"
-            data-aos="fade-down"
+            data-aos="fade-up"
             data-aos-delay="300"
           >
             <h4 className="color-purple font-32 margin-left-30">Home Page</h4>

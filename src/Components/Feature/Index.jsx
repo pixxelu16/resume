@@ -52,7 +52,7 @@ const JourneyFeatures = () => {
   return (
     <section className="journey-features">
       <div className="custom-container">
-        <p className='concept-line font-24 mb-4 pb-4'>Features</p>
+        <p className='concept-line font-24'>Features</p>
         <div className="row">
           {features.map((f, i) => (
             <div

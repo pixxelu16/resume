@@ -23,7 +23,7 @@ const Concept = ({
   return (
     <section className="Concept">
       <div className="custom-container">
-        <p className="font-24 concept-line" data-aos="fade-down">{title}</p>
+        <p className="font-24 concept-line" data-aos="fade-up">{title}</p>
 
         <div className="row padding-top-60">
           <div className="col-md-6 concept-1" data-aos={imageAnimation} data-aos-delay={imageDelay}>

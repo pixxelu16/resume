@@ -6,7 +6,6 @@ import Footer from '../../Components/Footer/Footer';
 
 // Image imports
 import Collage1 from '../../Assets/Images/gallery-images/gallery-1.png';
-import Collage4 from '../../Assets/Images/gallery-images/gallery-4.png';
 import Collage6 from '../../Assets/Images/gallery-images/gallery-6.png';
 import Collage8 from '../../Assets/Images/gallery-images/gallery-8.png';
 
@@ -31,7 +30,6 @@ const categories = ['All', 'Branding', 'Motion', 'Sketchbooks'];
 
 const allItems = [
   { id: 1, category: 'Branding', img: Collage1 },
-  { id: 4, category: 'Branding', img: Collage4 },
   { id: 6, category: 'Branding', img: Collage6 },
   { id: 8, category: 'Branding', img: Collage8 },
   { id: 14, category: 'Motion', video: Video1 },
