@@ -140,8 +140,27 @@ a.title-link {
     .color-grey {
         font-size: 16px;
     }
-}
 
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+.display-flex {
+    flex-direction: column;
+}
+p.mt-2.color-grey:before {
+  display: none;
+}
+.display-flex {
+    align-items: baseline;
+    gap: 0px !important;
+}
+.slick-dots li button:before {
+    color: #ffffff !important;
+    font-size: 12px !important;
+}
+.footer-link {
+    flex-direction: column;
+}
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
