@@ -37,12 +37,7 @@ const projects = [
     description: "Branding pitch for an international IB school in Bengaluru, reflecting themes of nature and flow.",
     image: ProjectSlider4,
   },
-  {
-    title: "Mindshare",
-    type: "Branding",
-    description: "Designing an identity that reflects collaboration, connection, and possibility.",
-    image: ProjectSlider3,
-  },
+ 
 ];
 
 const ProjectSlider = () => {
