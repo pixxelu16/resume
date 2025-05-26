@@ -10,7 +10,6 @@ import Collage6 from '../../Assets/Images/gallery-images/gallery-6.png';
 import Collage8 from '../../Assets/Images/gallery-images/gallery-8.png';
 
 // Video imports
-import Video1 from '../../Assets/Video/video-1.mp4';
 import Video3 from '../../Assets/Video/video-3.mp4';
 import Video4 from '../../Assets/Video/video-4.mp4';
 import Video5 from '../../Assets/Video/video-5.mp4';
@@ -32,7 +31,6 @@ const allItems = [
   { id: 1, category: 'Branding', img: Collage1 },
   { id: 6, category: 'Branding', img: Collage6 },
   { id: 8, category: 'Branding', img: Collage8 },
-  { id: 14, category: 'Motion', video: Video1 },
   { id: 15, category: 'Motion', video: Video3 },
   { id: 16, category: 'Motion', video: Video4 },
   { id: 17, category: 'Motion', video: Video5 },
